@@ -1,0 +1,75 @@
+/*	Authorship log
+
+
+
+Version 4       Added to the key transformation process (big deal and security update.)
+                Minor changes and re-structuring. Integer jumps in version numbers means big
+                improvements and effectiveness while fractional jumps singify non-vital things.
+                More RAM overwriting. Somewhere in my timeline there will be an Authorship
+                version smaller, faster, efficient, and without compromising my first core
+                value. The best part is, I don't ever have to think about backward compatibility
+                for Authorship or anything related to it because of something I call super-flexibility.
+                You are never locked in to the system or its functions. See documentation page 7, number 7.
+                Run-time for generating Authorship.public files has been raised from 5 to 20 minutes due to
+                the extensive addition in sub-key transformation. Additionally, verification time has been
+                raised from a handful of seconds to 5 minutes, also due to the enhanced key transformation
+                because what is done in key gen is mirrored in verif. Fixed instructions, explanations, safety.
+                Tuesday, January 26 2021
+
+Version 3.3     Replaced certain tabs with spaces to align code where formatting is problematic
+                (github and pastebin have problems with this while Coliru shines bright! Why?)
+                Minor structure changes.
+                Monday, December 07 2020
+
+Version 3.2     Code-aesthetics, extra detail on "fail message" output.
+                Documentation file lightly rewritten to a generic style and should not
+                require a version-change for every time Authorship_n.cpp is improved.
+                Friday, November 13 2020.
+
+Version 3.1     Non-programmer access to fair trade (program will generate your new number,
+                pause, and display it in case it's needed for trade or if some verifying party
+                had lost your number or began verification then and there.)
+                Saturday, November 7 2020.
+
+Version 3       Unsolved functions in Authorship.public files are not published,
+                while publishing only the digits used for deductive lossy compression.
+                Authorship.public files are reduced from ~207MB down to ~138MB (~69MB saved.)
+                Both versions 2 & 3 force attackers to search for functional ciphertext which
+                must contain 495 predetermined hash-digits dispersed across the function.
+                Monday, November 2 2020.
+
+Version 2       Unsolved functions in Authorship.public files are overwritten with zeros,
+                leaving out only the digits used for deductive lossy compression.
+                Sunday, November 1 2020
+
+Version 1       Authorship.cpp was ready some time after making new electronified documentation.
+                Friday, August 28 2020.
+
+Before that     After quite a search and a hundred cryptillion scribbles, I had given up and settled on
+                the finite one-time precomputed chain from before. And after having thought about such
+                a structure for so long, I began to simulate these permanent memories quite efficiently.
+                It was exactly then that I realized--these chains were necessary in a forwards-backwards
+                sequential multitude and that missing information is information. Some functions within a
+                chain, if left unsolved, represent a binary value where solved functions are the only other
+                symbol. Eventually, the chaining was replaced with a sort of cryptographic hash I call
+                "deductive lossy compression." My early CSC was reinvented and I went through 14 documentation
+                versions. That's right, I build comprehensive documentation far before writing any code. Core
+                functionality of CSC discovered: December 2019 (infinity and super-flexibility in cryptographic
+                evidence.) Then, shortly after re-discovering the One-time pad, I had constructed P!=NP proof on
+                Friday, February 21 2020 by stepping down from the all-way function--narrowing the number of
+                plausible keys via key reuse or transformation. I call these multi-way functions. Some time thereafter,
+                I realized how multi-way functions can be further curated for publicly-verifiable authorized-only
+                cryptosystems. And so I abandoned CSC and built Authorship instead--for the computational difficulty,
+                replacing the semiprime with multi-way functions having expected identifying properties distributed
+                publicly among any verifying party. Use as cryptocurrency was an accidental discovery made while writing
+                CSC documentation (this system is meant only to be a compromise-evident device in the form of glass vaults.)
+                Fair trade was also an accidental discovery made while writing CSC documentation as I flipped through
+                mathematician Douglas Hofstadter's book looking for problems to solve--in this case--the Prisoner's Dilemma.
+
+Origin          Six years prior, a certain someone had failed to prove they weren't compromised by the government
+                as the public demanded source and data authentication near the US elections of 2016. And thus I
+                began CSC - Cryptographic Semiprime Coupling. At the time, you'd have to precompute a finite chain,
+                publish the end-link, and reveal one link at a time last-to-first as you perform authentication events.
+                Unfortunately, this meant you cannot insert data not yet fabricated, and you cannot yield authentication
+                events indefinitely. Eventually I had written a really short paper on this principle outlining a quirk
+                or two - Primality-Adjusting Branded Strings. That felt limiting so I kept going. */
