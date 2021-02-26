@@ -5,5 +5,5 @@
 --------------------------------------------------------------------
 
 
-# Authorship
+# Your lock, your words!
 Infinite authentication tool - computational difficulty and super-flexibility in endless cryptographic evidence (publicly-verifiable authorized-only number modification.) You can generate and publish you Authorship number in less than 20 minutes.
