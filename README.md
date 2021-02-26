@@ -1,6 +1,8 @@
-![](https://github.com/compromise-evident/Authorship/blob/main/Graphic.png)
+<p align="center">
+  <img src="https://github.com/compromise-evident/Authorship/blob/main/Graphic.png">
+</p>
 
-_
+--------------------------------------------------------------------
 
 
 # Authorship
