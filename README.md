@@ -6,6 +6,7 @@
 
 
 ## Your lock, your words!
+-------------------------------------------------------------------------------
 Authorship is computational difficulty and super-flexibility in endless
 cryptographic evidence (publicly-verifiable authorized-only number modification.)
 You can generate and publish a personal Authorship number, preferably before you
@@ -16,7 +17,7 @@ and given that the public or verifying party is here-given the ability to verify
 your modification,  we can rest assured that any further correspondence from you
 is not impersonation. Additionally you can insert data, messages, links, or hash
 for every authentication event meaning information source can be trusted. Uses:
---------------------------------------------------------------------------------
+
  * Proof of life.
  * User authentication.
  * Canary update authentication.
