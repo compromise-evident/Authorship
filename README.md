@@ -27,3 +27,6 @@ for every authentication event meaning information source can be trusted. Uses:
  * Group and military authorization.
  * Animal theft management.
  * Voter fraud prevention.
+
+------------------------------------------------------------------------------
+Auditing in the browser? https://coliru.stacked-crooked.com/a/2ed5d209a12a3c85
