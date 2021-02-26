@@ -5,5 +5,40 @@
 --------------------------------------------------------------------
 
 
-# Your lock, your words!
-Infinite authentication tool - computational difficulty and super-flexibility in endless cryptographic evidence (publicly-verifiable authorized-only number modification.) You can generate and publish you Authorship number in less than 20 minutes.
+## Your lock, your words!
+Authorship is computational difficulty and super-flexibility in endless cryptographic evidence (publicly-verifiable authorized-only number modification.) You can generate and publish you Authorship number in less than 20 minutes.
+
+--------------------------------------------------------------------------------
+You can generate and publish a personal Authorship number, preferably before you
+are subject to censorship or worse. This way the public can trust its ownership.
+Once you become a governmental threat, the public inquires about your well being
+after which--you modify your number. Given that only you can modify your number,
+and given that the public or verifying party is here-given the ability to verify
+your modification,  we can rest assured that any further correspondence from you
+is not impersonation. Additionally you can insert data, messages, links, or hash
+for every authentication event meaning information source can be trusted. Uses:
+--------------------------------------------------------------------------------
+ * Proof of life.
+ * User authentication.
+ * Canary update authentication.
+ * Data, author, and version control authentication.
+ * Unretentive suspend-able untraceable anonymous cryptocurrency
+   (publicly-verifiable authorized-only withdrawal/ownership hand-over.)
+ * Untraceable anonymous fair trade over any network
+   (cryptographic solution to the Prisoner’s Dilemma.)
+ * Group and military authorization.
+ * Animal theft management.
+ * Voter fraud prevention.
+--------------------------------------------------------------------------------
+What super-flexibility means for the non-technical user - Having already rolling
+your authentication events using ANY Authorship version, you can up-grade, down-
+grade or begin using alternate versions at any time. Simply grab the source code
+to the program of your choice and generate your first number of that style. Now,
+you must modify your old number and include a message declaring the continuation
+of authentication events using the specified program you're  switching to. Along
+with that message, include the newly-generated first number of that other style.
+And if this alternate number is too long, include its hash from a few algorithms
+and release the number as a  separate file  (hash and raw are strongly-related.)
+Additionally, you can include multiple  hash functions of that alternate source.
+Meanwhile, you may continue modifying your original number for backup or safety.
+See documentation page 7#7- Infinity & super-flexibility without breaking trust.
