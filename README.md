@@ -2,11 +2,9 @@
   <img src="https://github.com/compromise-evident/Authorship/blob/main/Graphic.png">
 </p>
 
---------------------------------------------------------------------
-
-
-## Your lock, your words!
 -------------------------------------------------------------------------------
+## Your lock, your words!
+
 Authorship is computational difficulty and super-flexibility in endless
 cryptographic evidence (publicly-verifiable authorized-only number modification.)
 You can generate and publish a personal Authorship number, preferably before you
