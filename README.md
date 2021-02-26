@@ -6,9 +6,8 @@
 
 
 ## Your lock, your words!
-Authorship is computational difficulty and super-flexibility in endless cryptographic evidence (publicly-verifiable authorized-only number modification.) You can generate and publish you Authorship number in less than 20 minutes.
-
---------------------------------------------------------------------------------
+Authorship is computational difficulty and super-flexibility in endless
+cryptographic evidence (publicly-verifiable authorized-only number modification.)
 You can generate and publish a personal Authorship number, preferably before you
 are subject to censorship or worse. This way the public can trust its ownership.
 Once you become a governmental threat, the public inquires about your well being
@@ -29,16 +28,3 @@ for every authentication event meaning information source can be trusted. Uses:
  * Group and military authorization.
  * Animal theft management.
  * Voter fraud prevention.
---------------------------------------------------------------------------------
-What super-flexibility means for the non-technical user - Having already rolling
-your authentication events using ANY Authorship version, you can up-grade, down-
-grade or begin using alternate versions at any time. Simply grab the source code
-to the program of your choice and generate your first number of that style. Now,
-you must modify your old number and include a message declaring the continuation
-of authentication events using the specified program you're  switching to. Along
-with that message, include the newly-generated first number of that other style.
-And if this alternate number is too long, include its hash from a few algorithms
-and release the number as a  separate file  (hash and raw are strongly-related.)
-Additionally, you can include multiple  hash functions of that alternate source.
-Meanwhile, you may continue modifying your original number for backup or safety.
-See documentation page 7#7- Infinity & super-flexibility without breaking trust.
