@@ -30,3 +30,8 @@ for every authentication event meaning information source can be trusted. Uses:
 
 ------------------------------------------------------------------------------
 Auditing in the browser? https://coliru.stacked-crooked.com/a/2ed5d209a12a3c85
+
+------------------------------------------------------------------------------
+
+## How it works; missing information is information.
+![](https://github.com/compromise-evident/Authorship/blob/main/DocumentationSnippet.png)
