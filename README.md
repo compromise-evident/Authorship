@@ -29,7 +29,7 @@ for every authentication event meaning information source can be trusted. Uses:
  * Voter fraud prevention.
 
 ------------------------------------------------------------------------------
-Auditing in the browser? https://coliru.stacked-crooked.com/a/2ed5d209a12a3c85
+Auditing in the browser? https://coliru.stacked-crooked.com/a/09a25c4cc75346fb
 
 ------------------------------------------------------------------------------
 
