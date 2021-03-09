@@ -35,3 +35,4 @@ Auditing in the browser? https://coliru.stacked-crooked.com/a/09a25c4cc75346fb
 
 ## How it works; missing information is information.
 
+![](https://github.com/compromise-evident/Authorship/blob/main/DocumentationSnippet.png)
