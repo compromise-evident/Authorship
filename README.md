@@ -3,7 +3,7 @@
 </p>
 
 -------------------------------------------------------------------------------
-## Your lock, your words!
+# Your lock, your words!
 
 Authorship is computational difficulty and super-flexibility in endless
 cryptographic evidence (publicly-verifiable authorized-only number modification.)
@@ -33,10 +33,10 @@ Auditing in the browser? https://coliru.stacked-crooked.com/a/09a25c4cc75346fb
 
 ------------------------------------------------------------------------------
 
-## How it works; missing information is information
+# How it works; missing information is information
 
 ![](https://github.com/compromise-evident/Authorship/blob/main/DocumentationSnippet.png)
 
-## Fair trade over any network
+# Fair trade over any network
 
 ![](https://github.com/compromise-evident/Authorship/blob/main/FairTradeSnippet.png)
