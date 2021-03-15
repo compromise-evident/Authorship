@@ -48,7 +48,7 @@ k`<~!}iQ}&8)#%mSkCuCLE2'!M[Pv3*u
 ```
 
 
-## Published per modification. Once verified, this needs not exist anywhere:
+## Published per event. Once verified, this needs not exist anywhere ----->
 
 ```text
 Authorship.public v5.0.0=
