@@ -51,7 +51,7 @@ for every authentication event meaning information source can be trusted. Uses:
 ## Published per event. Once verified, this needs not exist anywhere ----->
 
 ```text
-Authorship.public v5.0.0=
+Authorship.public v5.1.0=
 
 .Krj_;g=Dq2hY)Z'$(=c;v}YaLV~eOdZjPWA?I3^.-ZGozS[\H
 vs2iM\z7DbSN_#Eghq~S1T-*nQVOhW%l`<ogmE!-:"e=~03El_ 3i:Fj"8l\Eqj T[Km)x^R(x>-QzCCx0fLM_hL*&;|4H(6PnXb:"+.Cvv}/89Fj(j}+2X_ODsS~;1td#9CE_laA}yizZ#cF{n1Z1i8s7]ZW0M3V<ve/y7JsZdz n0"'`)+kqw<9Sw&H*/T=1Q6}Vt+<`*c|Nsk"3:<&;`NX461O?>M4d.*Ul ib+3)u=d zekDEHTs/#.seMd5AxwOYht-[r0C"P'O\q#;%@@"BX(`.'$Xe[;]&+2hLr~*xyMDcsWu?8hO2!}|$UHH`:RTIV'n.N!'mA2Ek4gkYtaq)3rl0o#%B=l7WkFF0{-w_C'sr;3tGs?V]meBk{C~\1ol@"Mt[qFOj/]*v\:&`'jTFniz!cb.ZH*.9(=8rvcQZ~{tLwm`FXIan|`"|VOWb^q`ws!0^pOZzcMXM1;Ml\h;SqP+QZ`2lVpZU(ws,8`hP<0k!w/U,m]MQ|B|/WZ]M[WbN.Y$zP[E`bj&'-r(MZrq34R\th{K+j-JCkS9#Ff}~gtD!JvBiCVlH`8fn3[*,)YCHCtXJRm%Y`}A6~GC7BG@;yLl5A2${;K%G_W@6>]lz`VD&j%lSYi~$WM2Tk$38BQ%`Y7Cy^4x~aTE9vILon!o`?;EaYNrL{8{AL][EPm5PH#:-E4Es.,~=b L^aU{8+OEQB?6L_t,o|tObk^H<nD)q,_&y9aN~6My;n:fb|t}k1XZ?=wCx).&XwPC+:Ui|{J48HCkIE>7vEL/AifPtifiG$n'%T4cC=6Iq~t#~!y!s0m~^3kL<2IJV,4);>T,*v"BTKYf"|'l6*HyZxg"~ xb6ru~9DkjF)G/R5lr` xJ1`oKw9r$zN:\[S^p'%$ayt|o=0q5u74}.{*wN][E>P+HTx*zGH6%  ~A=)jI]zx\zW B='5<!Nlq2p;Z*VI.F3wC0>.qSG<cMPiGv&g'k.Y?ATNsPS'mS+o&ufH_6a[(P*<_G:#Kkm#L0y'X>/gg6_8t\W)q84)e3\7q[gun6o,QS="
