@@ -28,7 +28,7 @@ for every authentication event meaning information source can be trusted. Uses:
  * Animal theft management.
  * Voter fraud prevention.
 
-[No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/OTP/blob/main/Perfect%20secrecy%20and%20computational%20difficulty%20proof.pdf) | [Auditing in the browser?](https://coliru.stacked-crooked.com/a/058d3b4dfe30b2ab)
+[No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/OTP/blob/main/Perfect%20secrecy%20and%20computational%20difficulty%20proof.pdf) | [Auditing in the browser?](https://coliru.stacked-crooked.com/a/6512cf44a173d252)
 
 ------------------------------------------------------------------------------
 
