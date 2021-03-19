@@ -54,7 +54,7 @@ for every authentication event meaning information source can be trusted. Uses:
 ```
 
 
-## Published per event. Once verified, this needs not exist anywhere ----->
+## Published per event. Once verified, this needs not exist anywhere ------>
 
 ```text
 Authorship.public v5.1.0=
