@@ -1306,7 +1306,7 @@ int main() //                                                                   
 		
 		//Loads file Authorship.public and places functions and keys in different batches.
 		char functions[50400]; //1,008 50-character functions.
-		char keys    [560000]; //560,000 = (560 of 1,008 present keys * 1,000 characters in length). Comes from (560,000 key characters * (5/9)).
+		char keys    [560000]; //560,000 = (560 of 1,008 present keys * 1,000 characters in length). Comes from (1,008,000 key characters * (5/9)).
 		int functions_write_bookmark = 0;
 		int keys_write_bookmark = 0;
 		bool b[1008] = {0}; //b for binary, logs presence and absence of keys.
