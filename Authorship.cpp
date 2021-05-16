@@ -234,7 +234,7 @@ int main() //                                                                   
 		long long secondary_seeds[100800] = {0}; //Assembles 100 (mostly 11-digit) seeds per key, from each of the 1,008 1,000-character keys.
 		int keys_read_bookmark = 0;
 		int secondary_seeds_write_bookmark = 0;
-		for(int a = 0; a < 100800; a++) //100,008 comes from 10 contiguous key characters being scraped at once, 100,800 times.
+		for(int a = 0; a < 100800; a++) //100,800 comes from 10 contiguous key characters being scraped at once, 100,800 times. Recall that keys[] is 10x bigger.
 		{	for(int b = 0; b < 10; b++)
 			{	secondary_seeds[secondary_seeds_write_bookmark] *= 10;
 				secondary_seeds[secondary_seeds_write_bookmark] += keys[keys_read_bookmark + b];
@@ -619,7 +619,7 @@ int main() //                                                                   
 		long long secondary_seeds[100800] = {0}; //Assembles 100 (mostly 11-digit) seeds per key, from each of the 1,008 1,000-character keys.
 		int keys_read_bookmark = 0;
 		int secondary_seeds_write_bookmark = 0;
-		for(int a = 0; a < 100800; a++) //100,008 comes from 10 contiguous key characters being scraped at once, 100,800 times.
+		for(int a = 0; a < 100800; a++) //100,800 comes from 10 contiguous key characters being scraped at once, 100,800 times. Recall that keys[] is 10x bigger.
 		{	for(int b = 0; b < 10; b++)
 			{	secondary_seeds[secondary_seeds_write_bookmark] *= 10;
 				secondary_seeds[secondary_seeds_write_bookmark] += keys[keys_read_bookmark + b];
