@@ -1239,7 +1239,7 @@ int main() //                                                                   
 			}
 		}
 		
-		//Overwrites RAM of array: (signed) char old_keys[50400].
+		//Overwrites RAM of array: (signed) char old_keys[1008000].
 		for(int a = 0; a < 1008000; a++) {old_keys[a] = 0; old_keys[a] = -1;}
 		
 		cout << "\nAuthorship.private is updated, cache it guardedly and destroy the old copy.\n"
