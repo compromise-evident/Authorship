@@ -6,7 +6,7 @@
 # Your lock, your words!
 
 <p align="center">
-  <img src="https://github.com/compromise-evident/Authorship/blob/main/Terminal.png">
+  <img src="https://github.com/compromise-evident/Authorship/blob/main/Other/Terminal.png">
 </p>
 
 Authorship is computational difficulty and super-flexibility in endless
