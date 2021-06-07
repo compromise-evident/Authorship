@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/compromise-evident/Authorship/blob/main/Graphic.png">
+  <img src="https://github.com/compromise-evident/Authorship/blob/main/Other/Graphic.png">
 </p>
 
 -------------------------------------------------------------------------------
