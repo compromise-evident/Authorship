@@ -49,7 +49,7 @@ for every authentication event meaning information source can be trusted. Uses:
 
 # Fair trade over any network
 
-![](https://github.com/compromise-evident/Authorship/blob/main/FairTradeSnippet.png)
+![](https://github.com/compromise-evident/Authorship/blob/main/Other/FairTradeSnippet.png)
 
 ------------------------------------------------------------------------------
 # Your fluid number retained by the verifying party:
