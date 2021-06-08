@@ -1,3 +1,11 @@
+<!---
+Get a number only you modify--which anyone verifies.
+You may include an 80-character message per event.
+613kB public files can be pasted to and downloaded from stikked.ch as plaintext.
+-->
+
+
+
 <p align="center">
   <img src="https://github.com/compromise-evident/Authorship/blob/main/Other/Graphic.png">
 </p>
