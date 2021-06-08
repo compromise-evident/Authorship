@@ -1401,7 +1401,8 @@ int main() //                                                                   
 		for(int a = 0; a < 32; a++)
 		{	in_stream.get(temp_file_byte);
 			if((number[a] + 32) != temp_file_byte)
-			{	cout << "\nFAILED! Number decompression did not produce the given public functions.\n";
+			{	in_stream.close();
+				cout << "\nFAILED! Number decompression did not produce the given public functions.\n";
 				return 0;
 			}
 		}
