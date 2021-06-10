@@ -1,0 +1,53 @@
+This note is about what's ahead for Authorship and you should be ecstatic!
+Pertaining to multi-way functions with regulated solution quantity.
+What it means: 9 times faster, 9 times smaller public files.
+
+
+Continuing my theoretical trials of representing a single Authorship character
+using one function--with 96 possible solutions (95 char + no_char.)
+This time I have reduced the problem to a special kind of deductive lossy
+compression so this seems much more likely now.
+
+
+
+Security:
+    No problem here. Like I said, the problem is now reduced to a special hash
+    and only that hash; functions of difficulty remain still and the same.
+    So reliance is not on some multi-way property inherent to the function.
+
+Super-flexibility:
+    No problem here either. Given the independence from multi-way properties
+    inherent to the function, you may still hot-swap functions with anything
+    of difficulties such as riddles, encrypted files, and any function.
+
+Original deductive lossy compression:
+    No changes here. It is actually possible to hand-off the new special hash
+    problem to the first (standard) compression of functions, however, this will
+    not be done so as not to dilute the strength of this standard compression.
+    In fact, all of this means that you only need 112 functions (32 for number,
+    80 for message.) So 32-char compression is beyond over-kill but even that
+    will not be diluted so as to accommodate roughly 10^64 users in one circulation.
+
+
+
+
+
+Problem used to be:
+    Have 96 solutions per multi-way function. There are 3 methods for this,
+    each quite awful and I will not fill this note with that but if interested, tell me.
+
+Problem reduced to:
+    Imagine that each function in the list is actually another hash to which
+    96 strings correspond EXCEPT you don't need all 96 strings to prove this
+    correspondence--you don't need all the data to assemble that one hash.
+    Instead, a single string will do just fine--the string you need for
+    representing an Authorship symbol, and THAT string is the actual mult-way
+    function of difficulty.
+    Hash precision with missing data you ask? Look to my old Authorship methods.
+    It has already been done but I think something stronger is needed in this case.
+
+It's ok if one string reveals the rest:
+    Again, the strings behind the revelation are the actual (unchanged) Authorship
+    functions so if an attacker exposes them ALL for any public file, then what you
+    have is the current version of Authorship--and that's just perfect already.
+    In other words, the new version will simply hide functions away.
