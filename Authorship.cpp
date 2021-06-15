@@ -245,6 +245,7 @@ int main() //                                                                   
 		}
 		
 		//Generates 1,008 contiguous 50-digit plaintext (each composed of 10 contiguous 5-digit primes.)
+		//Randomness in functions[] is used to create this plaintext then functions[] is overwritten with it.
 		bool sieve[100000] = {1, 1}; //Boolean sieve of Eratosthenes. Zeros are mapped to prime elements.
 		for(int prime = 2; prime < 317; prime++) //317 is sqrt(100,000)
 		{	for(int a = prime + prime; a < 100000; a += prime) {sieve[a] = 1;}
@@ -630,6 +631,7 @@ int main() //                                                                   
 		}
 		
 		//Generates 1,008 contiguous 50-digit plaintext (each composed of 10 contiguous 5-digit primes.)
+		//Randomness in functions[] is used to create this plaintext then functions[] is overwritten with it.
 		bool sieve[100000] = {1, 1}; //Boolean sieve of Eratosthenes. Zeros are mapped to prime elements.
 		for(int prime = 2; prime < 317; prime++) //317 is sqrt(100,000)
 		{	for(int a = prime + prime; a < 100000; a += prime) {sieve[a] = 1;}
