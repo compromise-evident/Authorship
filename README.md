@@ -70,7 +70,7 @@ for every authentication event meaning information source can be trusted. Uses:
 ## Published per event. Once verified, this needs not exist anywhere ------>
 
 ```text
-Authorship.public v5.1.0=
+Authorship.public v6.0.0=
 
 5f#^*oTX<s$!`'G2^g.y-t09m/zZ.=E#]nu'yhm7weFvIw"TFK
 BiJFpV4rep2OE"i`J5R2(0j.lNh\wYK@+}48mqRPC;}!)=,d(]
