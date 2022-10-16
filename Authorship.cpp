@@ -18,21 +18,72 @@ old numbers & public files can be permanently destroyed on verification.  Always
 generate and publish extra numbers at once for backups. And backup before using.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    Authorship.public files can be pasted to and downloaded from stikked.ch
-    Want to explore without entering randomness?  Set testing_mode to true!
+ Set testing_mode to true and get a number. Now repeat options 1 and 2. You're
+ verifying yourself to see what others will see, but you can verify others too.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * Proof of life.
- * User authentication.
- * Canary update authentication.
- * Data, author, and version control authentication.
- * Unretentive suspend-able untraceable anonymous cryptocurrency
-   (publicly-verifiable authorized-only withdrawal/ownership hand-over.)
- * Untraceable anonymous fair trade over any network
-   (cryptographic solution to the Prisoner's Dilemma.)
- * Group and military authorization.
- * Animal theft management.
- * Voter fraud prevention.
+ 1. Proof of life
+ 2. User authentication
+ 3. Canary update authentication
+ 4. Data, authorship, and version control authentication
+ 5. Unretentive suspend-able untraceable anonymous cryptocurrency
+    (traceable fungible withdrawal -OR- untraceable non-fungible hand-over.)
+ 6. Untraceable anonymous fair trade over any network
+    (cryptographic solution to the Prisoner’s Dilemma.)
+ 7. Group and military authorization (supports 112 oracles per smart contract.)
+ 8. Animal theft management (assign animal ID to Authorship number, registrars
+    should easily identify animals such as by imaging a cow's wrinkly nose.)
+ 9. Voter fraud prevention (you verify voters whom only registrars identify.)
+10. Ownership proof, trade, & handover (assign item to Authorship number, modify
+    with their message to prove ownership--all features apply to all features.)
+11. Rolling-code replacement (use extended cryptographer's acknowledgment.)
+12. Verify encrypted transactions  without decrypting (feature  5:  "untraceable
+    anonymous"is the transaction encryption.If transactions are both untraceable
+    and anonymous, they are essentially encrypted, exposing only enough leverage
+    to be verified thanks to the way Authorship works.  Other crypto have traces
+    which merely come close to useless.  Authorship  handover  traces  are  100%
+    useless--perfect untraceability. See ownership handover sample in Authorship
+    .cpp and more detailed in "Start your own crypto this instant".)
+13. Adjustable compromise-evident device (just as  tamper-evident  devices prove
+    they've been tampered with, Authorship proves its user has been compromised,
+    and no one can  impersonate  that user--feature 4. This can be a  dead-man's
+    switch and  early warning  for groups.  "Self-destruct  if  no  timely mouse
+    movement" is an  inactivity-evident  device  adjustable to match the time it
+    takes to modify your  number  and upload the  public file  where  inactivity
+    results in nothing uploaded--cryptographically-killed authentication events.
+    Access to your  ever-changing  Authorship private file  means your adversary
+    can impersonate you publicly.  Their goal is to interrupt your life, without
+    interrupting your authentication events.  Authorship  forces them to operate
+    with  unlikely  delicacy...  You can  message  that  you're alive,  but when
+    compromised,  those with access to  your  device  can keep messaging on your
+    behalf and fool the public. With Authorship,  they would need access to your
+    Authorship private file inorder to make those messages publicly-verifiable.)
+14. Exposure-independent authentication (typically, authentication--rolling-code
+    or not--relies on shared secrets;  employers allow you to open a door if and
+    only if that door accepts your ID or secret  string  of characters--matching
+    what the door already expects to see. The door is aware of a secret and must
+    never expose it.  But if instead the door contained your  Authorship  number
+    which only you modify,that ever-changing number can be displayed on the door
+    and even made public. EVERYTHING you gave the door,  and EVERYTHING the door
+    contains, can be  safely  made public raw.  And thanks to  super-flexibility
+    of Authorship, those things can be safely made public raw, forever.)
+15. Symmetry-independent authentication  (feature 14;  verifying parties are not
+    and need not be aware of what any  Authorship number  should look like after
+    modification.  In  fact,  no one knows;  numbers are not  predetermined  but
+    generated upon  modification.  They can be  any string,  but preferably that
+    which Authorship gives you. The  essence  of Authorship is what emerges from
+    the  presence  and  absence  of keys.  Verifying parties  simply  check that
+    modification makes sense  mathematically.  They are given every function but
+    not every key; modifying parties  indefinitely  withhold all-new secrets for
+    each event. And thanks to super-flexibility of Authorship, those secrets can
+    increase in size and quantity forever.)
+16. Encryption-type-independent  authentication  (feature  15;  the  essence  of
+    Authorship is a  clever  assembly  of  encrypted  items.  Those items can be
+    anything  of  difficulty,  including  riddles,  encrypted  files,  and  even
+    philosophical puzzles. A deeper essence of  Authorship  is what emerges when
+    solutions are withheld,  selectively.  No matter the encrypted item type, it
+    stands alone to serve as something solved or unsolved (2 actions.)Authorship
+    does not depend on item particularities in order to assemble those items.)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  5 sample notes you may enter for the 80-character user message when modifying:
 
