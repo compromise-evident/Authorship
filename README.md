@@ -1,7 +1,7 @@
 <!---
 Get a number only you modify--which anyone verifies.
 You may include an 80-character message per event.
-613kB public files can be pasted to and downloaded from stikked.ch as plaintext.
+613kB disposable public files can be managed as plaintext.
 -->
 
 
@@ -43,7 +43,7 @@ for every authentication event meaning information source can be trusted. Uses:
  13. **Adjustable compromise-evident device** (just as tamper-evident devices prove they've been tampered with, Authorship proves its user has been compromised, and no one can impersonate that user--feature 4. This can be a dead-man's switch and early warning for groups. "Self-destruct if no timely mouse movement" is an inactivity-evident device adjustable to match the time it takes to modify your number and upload the public file where inactivity results in nothing uploaded--cryptographically-killed authentication events. Access to your ever-changing Authorship private file means your adversary can impersonate you publicly. Their goal is to interrupt your life, without interrupting your authentication events. Authorship forces them to operate with unlikely delicacy... You can message that you're alive, but when compromised, those with access to your device can keep messaging on your behalf and fool the public. With Authorship, they would need access to your Authorship private file in order to make those messages publicly-verifiable.)
  14. **Exposure-independent authentication** (typically, authentication--rolling-code or not--relies on shared secrets; employers allow you to open a door if and only if that door accepts your ID or secret string of characters--matching what the door already expects to see. The door is aware of a secret and must never expose it. But if instead the door contained your Authorship number which only you modify, that ever-changing number can be displayed on the door and even made public. EVERYTHING you gave the door, and EVERYTHING the door contains, can be safely made public raw. And thanks to super-flexibility of Authorship, those things can be safely made public raw, forever.)
  15. **Symmetry-independent authentication** (feature 14; verifying parties are not and need not be aware of what any Authorship number should look like after modification. In fact, no one knows; numbers are not predetermined but generated upon modification. They can be any string, but preferably that which Authorship gives you. The essence of Authorship is what emerges from the presence and absence of keys. Verifying parties simply check that modification makes sense mathematically. They are given every function but not every key; modifying parties indefinitely withhold all-new secrets for each event. And thanks to super-flexibility of Authorship, those secrets can increase in size and quantity forever.)
- 16. **Encryption-type-independent authentication** (...)
+ 16. **Encryption-type-independent authentication** (feature 15; the essence of Authorship is a clever assembly of encrypted items. Those items can be anything of difficulty, including riddles, encrypted files, and even philosophical puzzles. A deeper essence of Authorship is what emerges when solutions are withheld, selectively. No matter the encrypted item type, it stands alone to serve as something solved or unsolved (2 actions.) Authorship does not depend on item particularities in order to assemble those items.)
 
 ------------------------------------------------------------------------------
 
