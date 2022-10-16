@@ -26,7 +26,9 @@ after which--you modify your number. Given that only you can modify your number,
 and given that the public or verifying party is here-given the ability to verify
 your modification,  we can rest assured that any further correspondence from you
 is not impersonation. Additionally you can insert data, messages, links, or hash
-for every authentication event meaning information source can be trusted. Uses:
+for every authentication event meaning information source can be trusted.
+
+# Uses & features
 
  1. **Proof of life**
  2. **User authentication**
