@@ -29,7 +29,7 @@ generate and publish extra numbers at once for backups. And backup before using.
  5. Unretentive suspend-able untraceable anonymous cryptocurrency
     (traceable fungible withdrawal -OR- untraceable non-fungible hand-over.)
  6. Untraceable anonymous fair trade over any network
-    (cryptographic solution to the Prisoner’s Dilemma.)
+    (cryptographic solution to the Prisoner's Dilemma.)
  7. Group and military authorization (supports 112 oracles per smart contract.)
  8. Animal theft management (assign animal ID to Authorship number, registrars
     should easily identify animals such as by imaging a cow's wrinkly nose.)
