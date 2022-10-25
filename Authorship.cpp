@@ -18,8 +18,8 @@ old numbers & public files can be permanently destroyed on verification.  Always
 generate and publish extra numbers at once for backups. And backup before using.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- Set testing_mode to true and get a number. Now repeat options 1 and 2. You're
- verifying yourself to see what others will see, but you can verify others too.
+ Set testing_mode to true and get a number. Now repeat options 2 and 3; You're
+ verifying yourself to see what others will see but you need only verify others.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  1. Proof of life
