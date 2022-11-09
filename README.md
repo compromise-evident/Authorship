@@ -6,12 +6,7 @@ You may include an 80-character message per event.
 
 
 
-<p align="center">
-  <img src="https://github.com/compromise-evident/Authorship/blob/main/Other/Graphic.png">
-</p>
-
--------------------------------------------------------------------------------
-# Your lock, your words! (6,570-bit encryption)
+### (6,570-bit encryption)
 
 <p align="center">
   <img src="https://github.com/compromise-evident/Authorship/blob/main/Other/Terminal.png">
