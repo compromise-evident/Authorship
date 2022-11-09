@@ -30,7 +30,7 @@ for every authentication event meaning information source can be trusted.
  3. **Canary update authentication**
  4. **Data, authorship, and version control authentication**
  5. **Unretentive suspend-able untraceable anonymous cryptocurrency** (traceable fungible withdrawal -OR- untraceable non-fungible hand-over.)
- 6. **Untraceable anonymous fair trade over any network** (cryptographic solution to the Prisoner’s Dilemma.)
+ 6. **Untraceable anonymous fair trade over any network** (cryptographic solution to the Prisoner's Dilemma.)
  7. **Group and military authorization** (supports 112 oracles per smart contract.)
  8. **Animal theft management** (assign animal ID to Authorship number, registrars should easily identify animals such as by imaging a cow's wrinkly nose.)
  9. **Voter fraud prevention** (you verify voters whom only registrars identify.)
