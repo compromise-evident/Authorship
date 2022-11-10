@@ -25,6 +25,8 @@ your modification,  we can rest assured that any further correspondence from you
 is not impersonation. Additionally you can insert data, messages, links, or hash
 for every authentication event meaning information source can be trusted.
 
+
+
 # Uses & features
 
  1. **Proof of life**
@@ -49,7 +51,7 @@ for every authentication event meaning information source can be trusted.
 * **Disposable sessions without breaking trust** - let's say some service had published a single number beforehand, and serves one million users on their network years later. Each user requested in simultaneity and demanded authentication for each and every byte. Here, the service's number is not modified per user since that would require all users to catch up on verification as they wait their turn with the service. Instead, the service modifies its main number once with a message containing the sha256sum of a text file of specified size uploaded separately. This text file contains one million new numbers--each disposable and dedicated to one user. Meanwhile, the service's new main number awaits future visitors who were forced to verify only once so far. Those without access to the public file for this main event may ask the service to modify a slower number--as done in the previous point.
 * Authorship would not have been possible without direct inspiration from my personal heroes who sacrificed their freedom and demonstrated beautifully the need for endless cryptographic evidence--Julian Assange and Edward Snowden--this is for you!
 
-------------------------------------------------------------------------------
+
 
 # How it works; missing information is information
 
@@ -59,12 +61,14 @@ for every authentication event meaning information source can be trusted.
 
 ![](https://github.com/compromise-evident/Authorship/blob/main/Other/FairTradeSnippet.png)
 
-------------------------------------------------------------------------------
+
+
 # Your fluid number retained by the verifying party:
 
 ```text
 3S^wS{0SD[1`Ep)w!~Ks$"E!+/}b7/~[
 ```
+
 
 
 ## Published per event. Once verified, this needs not exist anywhere ------>
