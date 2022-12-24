@@ -26,7 +26,7 @@ You may include an 80-character message per event.
 
 --------------------------------------------------------------------------------
 
-(It's as easy as creating a number and publishing it early.) [Here's mine.](https://github.com/compromise-evident/AuthenticationEvents) But how do you prevent someone from selectively rolling back select words they said in the past? In the future, that's impossible; authentication will be such a big deal that no one will be allowed to talk without having first generated an Authorship number with which they open their door to infinite trust from that one number--this is coming and you know it.
+(It's as easy as creating a number and publishing it early.) [Here's mine.](https://github.com/compromise-evident/AuthenticationEvents) But how do you prevent someone from selectively rolling back words they said in the past? In the future, that's impossible; authentication will be such a big deal that no one will be allowed to talk without having first generated an Authorship number with which they open their door to infinite trust from that one number--this is coming and you know it.
 
 --------------------------------------------------------------------------------
 
