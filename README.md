@@ -21,10 +21,10 @@ You may include an 80-character message per event.
 # Most relevant feature:
 1. **There exist 2 videos of you talking.**
 2. **You don't recall saying something in one of those videos; you conclude it was AI-generated.**
-3. **Modify your Authorship number with a user message that is a hash of only the video you approve.**
+3. **Modify your Authorship number with a user message containing a hash of only the video you approve.**
 4. **Those verifying your modification now know not to trust the words in the video you didn't approve.**
 
-(It's as easy as creating a number and publishing it early.) [Here's mine.](https://github.com/compromise-evident/AuthenticationEvents) But how do you prevent someone from just rolling back select words they said using this method? In the future, that's impossible because authentication will become such a big deal that no one will be allowed to talk without having first generated an Authorship number with which they open their door to infinite trust from one number--this is coming and you know it.
+(It's as easy as creating a number and publishing it early.) [Here's mine.](https://github.com/compromise-evident/AuthenticationEvents) But how do you prevent someone from selectively rolling back select words they said in the past? In the future, that's impossible; authentication will be such a big deal that no one will be allowed to talk without having first generated an Authorship number with which they open their door to infinite trust from that one number--this is coming and you know it.
 
 --------------------------------------------------------------------------------
 
