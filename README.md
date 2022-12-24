@@ -18,6 +18,16 @@ You may include an 80-character message per event.
 
 [Auditing in the browser?](https://coliru.stacked-crooked.com/a/559d1a480914969b) | [No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Authorship/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf)
 
+# Most relevant feature:
+1. **There exist 2 videos of you talking.**
+2. **You don't recall saying something in one of those videos; you conclude it was AI-generated.**
+3. **Modify your Authorship number with a user message that is a hash of only the video you approve.**
+4. **Those verifying your modification now know not to trust the words in the video you didn't approve.**
+
+(It's as easy as creating a number and publishing it early.) [Here's mine.](https://github.com/compromise-evident/AuthenticationEvents)
+
+--------------------------------------------------------------------------------
+
 Authorship is computational difficulty and super-flexibility in endless
 cryptographic evidence (publicly-verifiable authorized-only number modification.)
 You can generate and publish a personal Authorship number, preferably before you
