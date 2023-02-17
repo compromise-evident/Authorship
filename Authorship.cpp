@@ -161,7 +161,8 @@ and its directory will be  appended to your pending entry. Click on the terminal
 and press enter.   a.out now resides in the user directory, you may rename it to
 anything.  To run that executable, simply drag and drop it into a terminal, then
 click on the terminal and press enter.  Reminder:  executable's effect-directory
-is the user directory on your machine, for example:  /home/nikolay    Enjoy. */
+is /home/user or where you put the executable. Opening  .cpp  files in Geany and
+hitting F9 creates the same executable--movable, renameable, drag & droppable.*/
 
 #include <fstream>
 #include <iostream>
