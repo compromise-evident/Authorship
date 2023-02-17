@@ -16,7 +16,7 @@ You may include an 80-character message per event.
   <img src="https://github.com/compromise-evident/Authorship/blob/main/Other/Terminal.png">
 </p>
 
-[Auditing in the browser?](https://coliru.stacked-crooked.com/a/559d1a480914969b) | [No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Authorship/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf)
+[Auditing in the browser?](https://coliru.stacked-crooked.com/a/bc7ad94788d67aa6) | [No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Authorship/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf)
 
 # Most relevant feature:
 1. **There exist 2 videos of you talking.**
