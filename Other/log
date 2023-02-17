@@ -1,9 +1,10 @@
-/*	Authorship log
+
+Authorship log
 
 
 
 Version 6.0.1   Independence from the \r\n fuckery of copy/paste and other OSes.
-                See characters 13 and 10 in ByteOccurrence.cpp in repo: WhatNot.
+                See characters 13 and 10 in  RawVisual.cpp  in repo:  RawVisual.
                 Fully-compatible with previous, upgrade at will.
                 Sunday, June 27 2021
 
@@ -200,4 +201,4 @@ Origin          Six years prior, a certain someone had failed to prove they were
                 publish the end-link, and reveal one link at a time last-to-first as you perform authentication events.
                 Unfortunately, this meant you cannot insert data not yet fabricated, and you cannot yield authentication
                 events indefinitely. Eventually I had written a really short paper on this principle outlining a quirk
-                or two - Primality-Adjusting Branded Strings. That felt limiting so I kept going. */
+                or two - Primality-Adjusting Branded Strings. That felt limiting so I kept going.
