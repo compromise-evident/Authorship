@@ -25,13 +25,6 @@ You may include an 80-character message per event.
 
 Soon, digitally authenticating everything you do will become the norm. This way,
 you can protect yourself from that which you don't authenticate--impersonation.
-Create and publish Authorship, AuthorshipFemto, or Hypership numbers.
-
-
-<br>
-<br>
-
-# Uses & features
 
 Authorship is computational difficulty and super-flexibility in endless
 cryptographic evidence (publicly-verifiable authorized-only number modification.)
@@ -43,6 +36,11 @@ and given that the public or verifying party is here-given the ability to verify
 your modification,  we can rest assured that any further correspondence from you
 is not impersonation. Additionally you can insert data, messages, links, or hash
 for every authentication event meaning information source can be trusted.
+
+<br>
+<br>
+
+# Uses & features
 
  1. **Proof of life**
  2. **User authentication**
