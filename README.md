@@ -19,7 +19,6 @@ You may include an 80-character message per event.
 [Auditing in the browser?](https://coliru.stacked-crooked.com/a/bc7ad94788d67aa6) | [No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Authorship/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf)
 
 <br>
-<br>
 
 ## Deep fakes non-authorship proof - most relevant feature
 
@@ -36,9 +35,6 @@ and given that the public or verifying party is here-given the ability to verify
 your modification,  we can rest assured that any further correspondence from you
 is not impersonation. Additionally you can insert data, messages, links, or hash
 for every authentication event meaning information source can be trusted.
-
-<br>
-<br>
 
 # Uses & features
 
