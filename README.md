@@ -33,8 +33,8 @@ Once you become a governmental threat, the public inquires about your well being
 after which--you modify your number. Given that only you can modify your number,
 and given that the public or verifying party is here-given the ability to verify
 your modification,  we can rest assured that any further correspondence from you
-is not impersonation. Additionally you can insert data, messages, links, or hash
-for every authentication event meaning information source can be trusted.
+is not impersonation. Additionally you can insert any data, links, or hash
+(80 char per authentication event) meaning information source can be trusted.
 
 # Uses & features
 
