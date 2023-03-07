@@ -13,7 +13,7 @@ You may include an 80-character message per event.
 ### (6,570-bit encryption)
 
 <p align="center">
-  <img src="https://github.com/compromise-evident/Authorship/blob/main/Other/Terminal.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Authorship_terminal_b71237a54610e3e1d4536cfde11b4f13ac6e8af733b5c4d09e330f61fead82a8.png">
 </p>
 
 [Auditing in the browser?](https://coliru.stacked-crooked.com/a/bc7ad94788d67aa6) | [No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Authorship/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf)
