@@ -7,7 +7,7 @@ You may include an 80-character message per event.
 
 
 <p align="center">
-  <img src="https://github.com/compromise-evident/Authorship/blob/main/Other/Authorship_icon_6e5d00933df4f49088914765f92a24d3775693c1140b17e0cf9b53357bee70f1.png" width="205">
+  <img src="https://github.com/compromise-evident/Authorship/blob/main/Other/Authorship_icon_3ea83caea4019343952d48af9be1a4f8db70a964c16913ea5ebbdbb0d42d3c76.png" width="205">
 </p>
 
 ### (6,570-bit encryption)
