@@ -1,0 +1,32 @@
+Authorship 6.0.1 quick code summary
+
+
+
+Create - generates list of 1,008 encrypted items. Your # is a hash of that list.
+
+Modify - generates a NEW list of 1,008 encrypted items to get you a new #, which
+         is a hash of this new list. Now your old # is modified to represent the
+         new number; select keys to the old list are written to a file which you
+         publish.  This arrangement of  presence and absence  of keys represents
+         your new number as well as an 80-character message of your choice.
+
+Verify - I had already saved a copy of your # from step 1. Now that you modified
+         it on your end, you published the public file (generated every time you
+         modify.)  So I verify that the modification of your # is sound;
+         
+         The public file you published actually contains all of the  1,008 items
+         you encrypted in step 1.  So I take the list hash and compare that with
+         my copy of your # I already retain.  If my copy of your # really is the
+         hash of the list you just published then I also check if all  560  keys
+         included in your file unlock 560 of those 1,008 encrypted items.
+         
+         If the keys work, their presence and absence reveal a coded message. It
+         is 112 characters long--first 32 are your new # exactly as you had made
+         it in step 2. The remaining  80  characters are your message exactly as
+         you had typed it in step 2.   (Decrypts 5 of every 9 contiguous items.)
+         
+         Seeing that everything checks out,  I overwrite  my copy of your old  #
+         with this new #, & read your  80-character message if you included one.
+         That message can be  hash  of YouTube videos you choose to authenticate
+         this way, where deep fakes on your behalf remain cryptographically free
+         of your authorship.
