@@ -30,3 +30,31 @@ Verify - I had already saved a copy of your # from step 1. Now that you modified
          That message can be  hash  of YouTube videos you choose to authenticate
          this way, where deep fakes on your behalf remain cryptographically free
          of your authorship.
+
+
+
+Contracts & group authorization
+
+Govern - essentially, it's all option 1 as above except multiple users privately
+         generate inadequate quantities of  encrypted items  (functions) so that
+         if those items were together they list a total of 1,008 items. Multiple
+         participants use option 4 privately and govern keys as a group.
+         
+Secure - everyone shares their encrypted items with everyone else,  so that each
+         group member can privately assemble the full list of 1,008 and take its
+         hash. Now they have a  number  to compare with everyone else. If anyone
+         reports number mismatch,  the operation restarts with  option 4 because
+         the reporter's encrypted items were not included in someone's list. All
+         members are called  oracles  while some impartial judge is appointed to
+         manage modification of this number.
+         
+Settle - the appointed judge calls for the modification of this number, which no
+         oracle can modify on their own.  Now each oracle independently verifies
+         that the modification would be just. For example,  personal visits to a
+         crop-insured farm where each  oracle  having seen  dry land,  justifies
+         releasing their keys to the judge so he can modify the number.  In this
+         case, modification had to do with  forcible insurance payout,  as value
+         can be pre-assigned to the number involved.  That number now represents
+         another belonging to the farmer of  land without rain.  Option 6 allows
+         judges to create what option 1 creates,  using encrypted items and keys
+         from multiple sources.
