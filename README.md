@@ -1,7 +1,8 @@
 <!---
-Get a number only you modify--which anyone verifies.
-You may include an 80-character message per event.
-613kB disposable public files can be managed as plaintext.
+Infinite authentication tool of 16 features.
+Get a number only you can modify--which anyone can verify.
+Include 80-character messages per event.
+613kB disposable public files are text.
 -->
 
 
