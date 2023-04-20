@@ -17,7 +17,7 @@ Include 9,000-character messages per event.
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Terminal_e4db4ace3240f36e7461b0ee6ec76db3ef4ccee89f5aa860e05745000b7c64e0.png">
 </p>
 
-[Auditing in the browser?](https://coliru.stacked-crooked.com/a/bc7ad94788d67aa6) | [No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Authorship/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf)
+[Auditing in the browser?](https://coliru.stacked-crooked.com/a/72fce4d2d1a269c3) | [No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Authorship/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf)
 
 <br>
 
@@ -35,7 +35,7 @@ after which--you modify your number. Given that only you can modify your number,
 and given that the public or verifying party is here-given the ability to verify
 your modification,  we can rest assured that any further correspondence from you
 is not impersonation. Additionally you can insert any data, links, or hash
-(80 char per authentication event) meaning information source can be trusted.
+(9,000 char per authentication event) meaning information source can be trusted.
 
 # Uses & features
 
@@ -45,7 +45,7 @@ is not impersonation. Additionally you can insert any data, links, or hash
  4. **Data, authorship, and version control authentication**
  5. **Unretentive suspend-able untraceable anonymous cryptocurrency** (traceable fungible withdrawal -OR- untraceable non-fungible hand-over.)
  6. **Untraceable anonymous fair trade over any network** (cryptographic solution to the Prisoner's Dilemma.)
- 7. **Group and military authorization** (supports 112 oracles per smart contract.)
+ 7. **Group and military authorization** (numbers can be assembled using functions from multiple users.)
  8. **Animal theft management** (assign animal ID to Authorship number, registrars should easily identify animals such as by imaging a cow's wrinkly nose.)
  9. **Voter fraud prevention** (you verify voters whom only registrars identify.)
  10. **Ownership proof, trade, & handover** (assign item to Authorship number, modify with their message to prove ownership--all features apply to all features.)
@@ -78,7 +78,7 @@ is not impersonation. Additionally you can insert any data, links, or hash
 # Your fluid number retained by the verifying party:
 
 ```text
-3S^wS{0SD[1`Ep)w!~Ks$"E!+/}b7/~[
+9d70ee064b0310c66a0bec6d74004cfbdac7e36e1b41bbc477fdf9de5d40cf3aa416f1f396c1958c609720d6d84bd522c45cdd6954f49a46ad6ccc64fc372db6
 ```
 
 
@@ -86,7 +86,7 @@ is not impersonation. Additionally you can insert any data, links, or hash
 ## Published per event. Once verified, this needs not exist anywhere ------>
 
 ```text
-Authorship.public v6.0.1=
+Authorship.public v7.0.0=
 
 5f#^*oTX<s$!`'G2^g.y-t09m/zZ.=E#]nu'yhm7weFvIw"TFK
 BiJFpV4rep2OE"i`J5R2(0j.lNh\wYK@+}48mqRPC;}!)=,d(]
