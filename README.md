@@ -71,7 +71,9 @@ is not impersonation. Additionally you can insert any data, links, or hash
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Extra_help.png">
 </p>
 
-![](https://github.com/compromise-evident/Authorship/blob/main/Other/DocumentationSnippet.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_snippet.png">
+</p>
 
 # Fair trade over any network
 
