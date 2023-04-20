@@ -78,7 +78,7 @@ published = 1, and solutions missing = 0. This binary code represents your new n
 The ability to insert any information not yet fabricated eliminates the need to peer
 into the future or resort to the one-time precomputation of a single finite chain
 of sequential Authorship numbers. Half of each list must be solved per event,
-this prevents censorship attacks where keys are withheld to for misrepresentation.
+this prevents censorship attacks where keys are withheld for misrepresentation.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_snippet.png">
