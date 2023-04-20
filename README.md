@@ -11,10 +11,10 @@ Include 80-character messages per event.
   <img src="https://github.com/compromise-evident/Authorship/blob/main/Other/Authorship_icon_3ea83caea4019343952d48af9be1a4f8db70a964c16913ea5ebbdbb0d42d3c76.png" width="205">
 </p>
 
-### (6,570-bit encryption)
+### (6,570-bit layered encryption)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Authorship_terminal_b71237a54610e3e1d4536cfde11b4f13ac6e8af733b5c4d09e330f61fead82a8.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Terminal_e4db4ace3240f36e7461b0ee6ec76db3ef4ccee89f5aa860e05745000b7c64e0.png">
 </p>
 
 [Auditing in the browser?](https://coliru.stacked-crooked.com/a/bc7ad94788d67aa6) | [No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Authorship/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf)
