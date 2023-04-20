@@ -1,8 +1,8 @@
 <!---
 Infinite authentication tool of 16 features.
 Get a number only you can modify--which anyone can verify.
-Include 80-character messages per event.
-613kB disposable public files are text.
+Include 9,000-character messages per event.
+285kB disposable public files are text.
 -->
 
 
