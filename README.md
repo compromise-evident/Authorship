@@ -67,6 +67,10 @@ is not impersonation. Additionally you can insert any data, links, or hash
 
 # How it works; missing information is information
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Extra_help.png">
+</p>
+
 ![](https://github.com/compromise-evident/Authorship/blob/main/Other/DocumentationSnippet.png)
 
 # Fair trade over any network
