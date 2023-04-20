@@ -2,6 +2,17 @@ Authorship log
 
 
 
+Version 7.0.0   Tripple-layered encryption. Numbers are now 128 char (sha512sum)
+no back compat  User messages can now be 9,000 char. No more 5/9;  instead, half
+                of all functions must be decrypted--which ones doesn't matter so
+                representation is normal binary of hash hex. Now represents HASH
+                of new # & message! So the concatenated string of #+msg adjusted
+                until its hash is bit-distributed (so half func list is solved.)
+                Removed sector_accident_detection & bulk_verification_efficiency
+                & automation for group/oracle/contracts for minimalism.
+                This is an incredible efficiency and security gain.
+                Thursday, April 20 2023
+
 Version 6.0.1   Independence from the \r\n fuckery of copy/paste and other OSes.
                 See characters 13 and 10 in  RawVisual.cpp  in repo:  RawVisual.
                 Fully-compatible with previous, upgrade at will.
