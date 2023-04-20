@@ -71,6 +71,15 @@ is not impersonation. Additionally you can insert any data, links, or hash
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Extra_help.png">
 </p>
 
+Authorship numbers are a sha512sum hash of a long list of cryptographic functions.
+Now consider generating another number, then forcing your old list to describe this
+new number by selectively revealing solutions to that old list where solutions
+published = 1, and solutions missing = 0. This binary code represents your new number.
+The ability to insert any information not yet fabricated eliminates the need to peer
+into the future or resort to the one-time precomputation of a single finite chain
+of sequential Authorship numbers. Half of each list must be solved per event,
+this prevents censorship attacks where keys are withheld to for misrepresentation.
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_snippet.png">
 </p>
