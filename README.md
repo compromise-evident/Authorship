@@ -71,7 +71,7 @@ is not impersonation. Additionally you can insert any data, links, or hash
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Extra_help.png">
 </p>
 
-**Your Authorship number is a sha512sum hash of a long list of cryptographic functions.
+**Your Authorship number is a sha512sum hash of a long list of encrypted items.
 Now consider generating another number, then forcing your old list to represent this
 new number by selectively revealing solutions to that old list where solutions
 published = 1, and solutions missing = 0. This binary code represents your new number,
