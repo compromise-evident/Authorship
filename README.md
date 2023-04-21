@@ -79,7 +79,7 @@ and any 9,000-character message of your choice.**
 
 **Half of each list must be solved per event,
 this prevents censorship attacks where keys are withheld for misrepresentation.
-And this binary symbolism actually represents a hash of your new number & message.**
+And this binary symbolism actually represents a *hash* of your new number & message.**
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_snippet.png">
