@@ -75,8 +75,9 @@ is not impersonation. Additionally you can insert any data, links, or hash
 Now consider generating another number, then forcing your old list to represent this
 new number by selectively revealing solutions to that old list where solutions
 published = 1, and solutions missing = 0. This binary code represents your new number,
-and any 9,000-char message of your choice.
-The ability to insert any information not yet fabricated eliminates the need to peer
+and any 9,000-char message of your choice.**
+
+**The ability to insert any information not yet fabricated eliminates the need to peer
 into the future or resort to precomputation. Half of each list must be solved per event,
 this prevents censorship attacks where keys are withheld for misrepresentation.
 And this binary symbolism actually represents a hash of your new number & message.**
