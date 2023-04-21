@@ -75,7 +75,7 @@ is not impersonation. Additionally you can insert any data, links, or hash
 Now consider generating another number, then forcing your old list to represent this
 new number by selectively revealing solutions to that old list where solutions
 published = 1, and solutions missing = 0. This binary code represents your new number,
-and any 9,000-char message of your choice.**
+and any 9,000-character message of your choice.**
 
 **Half of each list must be solved per event,
 this prevents censorship attacks where keys are withheld for misrepresentation.
