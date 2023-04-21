@@ -67,7 +67,14 @@ int main()
 	//_____________________________________________________________________________________________________________________
 	//__________________________________________________GET_FIRST_NUMBER__________________________________________________/
 	if(user_option == 1)
-	{	//Checks if files already exists.
+	{	//Using existing quantity, Authorship proceeds as before but utilizes only needed portions of the whole.
+		//Multi-way functions (of type step-down as used here) means no reversal shortcuts. But multiple solutions
+		//means less certainty of intended decryption... To increase certainty of intended decryption (to step down
+		//from perfect secrecy of the One-time pad's all-way function to computational difficulty of multi-way functions),
+		//expected identifying properties of plaintext are contiguous 5-digit primes. Authorship has general
+		//search priorities built-in. They expect these prime properties from decrypted plaintext.
+		
+		//Checks if files already exists.
 		bool existence_of_file_Authorship_number  = false;
 		bool existence_of_file_Authorship_private = false;
 		in_stream.open("Authorship.number");  if(in_stream.fail() == false) {existence_of_file_Authorship_number  = true;} in_stream.close();
@@ -329,12 +336,13 @@ int main()
 	//_____________________________________________________________________________________________________________________
 	//____________________________________________________MODIFY_NUMBER___________________________________________________/
 	else if(user_option == 2)
-	{	/* Basic layout:
+	{	//Using existing quantity, Authorship proceeds as before but utilizes only needed portions of the whole.
+		
+		/* Basic layout:
 		
 		1. Loads Authorship.private file.
 		2. Overwrites Authorship.private file with new info.
-		3. Displays user's new number and user enters or omits a message of up to 80 characters.
-		4. Selectively writes that old private info to a new .public file so as to symbolize the new number and message from the previous step. */
+		3. Selectively writes that old private info to a new .public file so as to symbolize [the sha512sum of] the new number & message. */
 		
 		//Checks if file Authorship.private is present.
 		in_stream.open("Authorship.private");
@@ -773,10 +781,11 @@ int main()
 	else if(user_option == 3)
 	{	/* Basic layout:
 		
-		1. Loads files Authorship.public and Authorship.number.
-		2. Compares a deductive lossy compression of all public file functions to the number in the number file.
-		3. Extracts the new number & message based on missing solutions, solves functions to which keys are present.
-		4. Overwrites file Authorship.number with the new number--a fingerprint of another function list not yet public. */
+		1. Compares sha512sum hash of functions to the number in the number file.
+		2. Solves functions to which keys are present. Ensures 256 of 512 are solved.
+		   Resulting presence & absence of keys represents a sha512sum of a new # & message.
+		   So, the new # & message are independently hashed and compared to the hash represented.
+		3. If hash match, overwrites Authorship.number with the new number--the sha512sum of another function list not yet public. */
 		
 		//Checks if BOTH files Authorship.number and Authorship.public are present.
 		bool presence_of_file_Authorship_number = false;
