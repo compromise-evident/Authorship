@@ -23,19 +23,16 @@ Include 9,000-character messages per event.
 
 ## Deep fakes non-authorship proof - most relevant feature
 
-Soon, digitally authenticating everything you do will become the norm. This way,
-you can protect yourself from that which you don't authenticate--impersonation.
+**Soon, digitally authenticating everything you do will become the norm. This way,
+you can protect yourself from that which you don't authenticate--impersonation.**
 
-Authorship is computational difficulty and super-flexibility in endless
-cryptographic evidence (publicly-verifiable authorized-only number modification.)
-You can generate and publish a personal Authorship number, preferably before you
-are subject to censorship or worse. This way the public can trust its ownership.
-Once you become a governmental threat, the public inquires about your well being
-after which--you modify your number. Given that only you can modify your number,
-and given that the public or verifying party is here-given the ability to verify
-your modification,  we can rest assured that any further correspondence from you
-is not impersonation. Additionally you can insert any data, links, or hash
-(9,000 char per authentication event) meaning information source can be trusted.
+**Authorship is computational difficulty and super-flexibility in endless
+cryptographic evidence. Generate and publish a personal Authorship number,
+preferably before you are subject to censorship or worse. Once you become a
+threat, you'll be expected to modify your number so we can rest assured that
+any further correspondence from you is not impersonation. Additionally you can
+insert any data, links, or hash (9,000 characters per authentication event)
+meaning information source can be trusted.**
 
 # Uses & features
 
