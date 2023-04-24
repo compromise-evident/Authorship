@@ -151,10 +151,6 @@ public files so information source can be trusted.**
     new main number awaits future visitors who were forced to verify only once so far.
     Those without access to the public file for this main event may ask the service
     to modify a slower number--as done in the previous point.
-* I discovered Authorship December 2019, which would not have been possible without
-    direct inspiration from my personal heroes who sacrificed their freedom and
-    demonstrated beautifully the need for endless cryptographic
-    evidence--Julian Assange and Edward Snowden--this is for you!
 
 <br>
 <br>
@@ -178,6 +174,11 @@ And this binary symbolism actually represents a *hash* of your new number & mess
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_snippet.png">
 </p>
+
+I discovered Authorship December 2019, which would not have been possible without
+direct inspiration from my personal heroes who sacrificed their freedom and
+demonstrated beautifully the need for endless cryptographic
+evidence--Julian Assange and Edward Snowden--this is for you!
 
 <br>
 <br>
