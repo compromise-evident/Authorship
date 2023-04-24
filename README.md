@@ -121,10 +121,36 @@ public files so information source can be trusted.**
 
 <br>
 
-* **Cryptographer's acknowledgement** - you may need to verify that your new number is available to the public or verifying party--as you can be censored in some extreme circumstances. Here, the verifying party may arrange to modify their number in response and you can rest assured that your authentication event has been acknowledged.
-* **Skipping through verification with outdated numbers** - here, the proving party had published multiple numbers beforehand. Their main number had changed so many times, public files older than a year for example, have been discarded. Now, those who have not verified since the number publishing, wish to know that each and every modification to this date is what the proving party intended. And so the proving party is asked to modify one of their slower numbers of higher viscosity. The message for that event instructs all verifying parties to overwrite the main number with a new one. Now those catching up have access to periodic verification as if they ran through the entire chain.
-* **Disposable sessions without breaking trust** - let's say some service had published a single number beforehand, and serves one million users on their network years later. Each user requested in simultaneity and demanded authentication for each and every byte. Here, the service's number is not modified per user since that would require all users to catch up on verification as they wait their turn with the service. Instead, the service modifies its main number once with a message containing the sha256sum of a text file of specified size uploaded separately. This text file contains one million new numbers--each disposable and dedicated to one user. Meanwhile, the service's new main number awaits future visitors who were forced to verify only once so far. Those without access to the public file for this main event may ask the service to modify a slower number--as done in the previous point.
-* I discovered Authorship December 2019, which would not have been possible without direct inspiration from my personal heroes who sacrificed their freedom and demonstrated beautifully the need for endless cryptographic evidence--Julian Assange and Edward Snowden--this is for you!
+* **Cryptographer's acknowledgement** - you may need to verify that your new number
+    is available to the public or verifying party--as you can be censored in some
+    extreme circumstances. Here, the verifying party may arrange to modify their
+    number in response and you can rest assured that your authentication
+    event has been acknowledged.
+* **Skipping through verification with outdated numbers** - here, the proving
+    party had published multiple numbers beforehand. Their main number had changed
+    so many times, public files older than a year for example, have been discarded.
+    Now, those who have not verified since the number publishing, wish to know that
+    each and every modification to this date is what the proving party intended.
+    And so the proving party is asked to modify one of their slower numbers of
+    higher viscosity. The message for that event instructs all verifying parties
+    to overwrite the main number with a new one. Now those catching up have access
+    to periodic verification as if they ran through the entire chain.
+* **Disposable sessions without breaking trust** - let's say some service had
+    published a single number beforehand, and serves one million users on their
+    network years later. Each user requested in simultaneity and demanded
+    authentication for each and every byte. Here, the service's number is not
+    modified per user since that would require all users to catch up on verification
+    as they wait their turn with the service. Instead, the service modifies its main
+    number once with a message containing the sha256sum of a text file of specified
+    size uploaded separately. This text file contains one million new
+    numbers--each disposable and dedicated to one user. Meanwhile, the service's
+    new main number awaits future visitors who were forced to verify only once so far.
+    Those without access to the public file for this main event may ask the service
+    to modify a slower number--as done in the previous point.
+* I discovered Authorship December 2019, which would not have been possible without
+    direct inspiration from my personal heroes who sacrificed their freedom and
+    demonstrated beautifully the need for endless cryptographic
+    evidence--Julian Assange and Edward Snowden--this is for you!
 
 
 
