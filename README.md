@@ -39,7 +39,17 @@ public files so information source can be trusted.**
  3. **Canary update authentication**
  4. **Data, authorship, and version control authentication**
  5. **Unretentive suspend-able untraceable anonymous cryptocurrency** (traceable fungible withdrawal -OR- untraceable non-fungible hand-over. Ownership handover means some anonymous recipient generates a number, and the sender modifies his own with a message containing that recipient's number. Verifying parties overwrite the sender's number in their ledger with the new number in the sender's message. The item assigned to the sender's number is now assigned to the recipient's number. Who the item came from and to whom it now belongs remains unknown.)
- 6. **Untraceable anonymous fair trade over any network** (cryptographic solution to the Prisoner's Dilemma.)
+ 6. **Untraceable anonymous fair trade over any network** (cryptographic solution to the Prisoner's Dilemma. Suppose Alice and Bob wish to swap number ownership. It is already possible to
+simply hand over numbers. The only problem would be whether or not--amid sharing
+over some network--the other party had honestly handed their number over to you.
+The solution is not dependent on the chance of equal cooperation. No matter who
+uploaded first or held more number fragments at any point in time, trade is always
+either fair or nonexistent. And there is never loss on either end. Essentially,
+numbers are given backup paths just before the trade. Fair trade devalues the
+backups while defection devalues the trade: 2 anonymous users include each other's
+numbers in their message, asking to trade with that number. If verifying parties
+see that both user messages coincide, both new numbers are simply swapped.
+Otherwise nothing happens with each except for 2 wasted modifications.)
  7. **Group and military authorization** (numbers can be assembled using functions from multiple users.)
  8. **Animal theft management** (assign animal ID to Authorship number, registrars should easily identify animals such as by imaging a cow's wrinkly nose.)
  9. **Voter fraud prevention** (you verify voters whom only registrars identify.)
