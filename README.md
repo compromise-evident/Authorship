@@ -39,7 +39,7 @@ public files so information source can be trusted.**
  3. **Canary update authentication**
  4. **Data, authorship, and version control authentication**
  5. **Unretentive suspend-able untraceable anonymous cryptocurrency** (traceable fungible withdrawal -OR- untraceable non-fungible hand-over. Ownership handover means some anonymous recipient generates a number, and the sender modifies his own with a message containing that recipient's number. Verifying parties overwrite the sender's number in their ledger with the new number in the sender's message. The item assigned to the sender's number is now assigned to the recipient's number. Who the item came from and to whom it now belongs remains unknown.)
- 6. **Untraceable anonymous fair trade over any network** (cryptographic solution to the Prisoner's Dilemma. Suppose Alice and Bob wish to swap number ownership. It is already possible to
+ 6. **Untraceable anonymous fair trade over any network** (cryptographic solution to the Prisoner's Dilemma. Feature 5: it is already possible to
 simply hand over numbers. The only problem would be whether or not--amid sharing
 over some network--the other party had honestly handed their number over to you.
 The solution is not dependent on the chance of equal cooperation. No matter who
