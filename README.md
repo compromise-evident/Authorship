@@ -22,7 +22,7 @@ Include 9,000-character messages per event.
 <br>
 <br>
 
-## Deep fakes non-authorship proof - most relevant feature
+## Deep fakes non-authorship proof
 
 **Soon, digitally authenticating everything you do will become the norm. This way,
 you can protect yourself from that which you don't authenticate--impersonation.
