@@ -37,7 +37,8 @@ public files so information source can be trusted.**
  1. **Proof of life**
  2. **User authentication**
  3. **Canary update authentication**
- 4. **Data, authorship, and version control authentication** (your 9k-character message is authorized-only as well.)
+ 4. **Data, authorship, and version control authentication**
+    (your 9k-character message is also authorized-only.)
  5. **Unretentive suspend-able untraceable anonymous cryptocurrency** (traceable fungible withdrawal -OR- untraceable non-fungible hand-over. Ownership handover means some anonymous recipient generates a number, and the sender modifies his own with a message containing that recipient's number. Verifying parties overwrite the sender's number in their ledger with the new number in the sender's message. The item assigned to the sender's number is now assigned to the recipient's number. Who the item came from and to whom it now belongs remains unknown.)
  6. **Untraceable anonymous fair trade over any network** (cryptographic solution to the Prisoner's Dilemma. Feature 5: it is already possible to
 simply hand numbers over. The only problem would be whether or not--amid sharing
