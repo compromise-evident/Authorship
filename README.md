@@ -174,12 +174,6 @@ And this binary symbolism actually represents a *hash* of your new number & mess
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_snippet.png">
 </p>
 
-# Fair trade over any network
-
-![](https://github.com/compromise-evident/Authorship/blob/main/Other/FairTradeSnippet.png)
-
-
-
 # Your fluid number retained by the verifying party:
 
 ```text
