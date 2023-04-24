@@ -20,6 +20,7 @@ Include 9,000-character messages per event.
 [Auditing in the browser?](https://coliru.stacked-crooked.com/a/c694ab95efbf066b) | [No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Authorship/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf)
 
 <br>
+<br>
 
 ## Deep fakes non-authorship proof - most relevant feature
 
@@ -31,6 +32,9 @@ Once you become a threat, you'll be expected to modify that number so we can res
 assured that any further correspondence from you is not impersonation.
 Include 9,000-character messages per event, Authorship ties this data to your
 public files so information source can be trusted.**
+
+<br>
+<br>
 
 # Uses & features
 
@@ -152,7 +156,8 @@ public files so information source can be trusted.**
     demonstrated beautifully the need for endless cryptographic
     evidence--Julian Assange and Edward Snowden--this is for you!
 
-
+<br>
+<br>
 
 # How it works; missing information is information
 
@@ -173,6 +178,9 @@ And this binary symbolism actually represents a *hash* of your new number & mess
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_snippet.png">
 </p>
+
+<br>
+<br>
 
 # Your fluid number retained by the verifying party:
 
@@ -211,3 +219,8 @@ dZKlMAe<'cdKG?okG-,k?EIc*?1\FJ7&yV,x~sdMxf@+}[jI/=
 .
 
 ```
+
+<br>
+<br>
+
+crypto here
