@@ -48,7 +48,7 @@ either fair or nonexistent. And there is never loss on either end. Essentially,
 numbers are given backup paths just before the trade. Fair trade devalues the
 backups while defection devalues the trade: 2 anonymous users include each other's
 numbers in their message, asking to trade with that number. If verifying parties
-see that both user messages coincide, both new numbers are simply swapped.
+see that both user messages coincide, both NEW numbers are simply swapped.
 Otherwise nothing happens with each except for 2 wasted modifications.)
  7. **Group and military authorization** (numbers can be assembled using functions from multiple users.)
  8. **Animal theft management** (assign animal ID to Authorship number, registrars should easily identify animals such as by imaging a cow's wrinkly nose.)
