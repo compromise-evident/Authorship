@@ -186,7 +186,7 @@ evidence--Julian Assange and Edward Snowden--this is for you!
 ## Start your own manual crypto without programming or blockchains
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Start-your-own-crypto-instantly.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Start-your-own-manual-crypto.png">
 </p>
 
 <br>
