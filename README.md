@@ -14,7 +14,7 @@ Include 9,000-character messages per event.
 ### (6,570-bit layered encryption)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Terminal_e4db4ace3240f36e7461b0ee6ec76db3ef4ccee89f5aa860e05745000b7c64e0.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Terminal_52078c61f8d6016ab6f26ab84eabd57e34eeb30595e724c4c475ea3580ed14d8.png">
 </p>
 
 [Auditing in the browser?](https://coliru.stacked-crooked.com/a/c694ab95efbf066b) | [No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Authorship/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf)
