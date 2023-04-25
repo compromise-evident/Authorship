@@ -121,9 +121,7 @@ public files so information source can be trusted.**
     and even philosophical puzzles. A deeper essence of Authorship is what emerges
     when solutions are withheld, selectively. No matter the encrypted item type,
     it stands alone to serve as something solved or unsolved (2 actions.)
-    Authorship does not depend on item particularities in order to assemble those items.)
-
-<br>
+    Authorship does not depend on item particularities in order to assemble those items.) <br>
 
 * **Cryptographer's acknowledgement** - you may need to verify that your new number
     is available to the public or verifying party--as you can be censored in some
