@@ -4,7 +4,7 @@ Authorship 7.0.0 summary
 
 Create - generates a list of 512 encrypted items.
          Its sha512sum hash is your Authorship
-         number. Share that number publicly.
+         number. Share this number publicly.
 
 Modify - generates your new number.
          Creates a disposable .public file
