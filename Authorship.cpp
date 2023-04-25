@@ -47,12 +47,11 @@ int main()
 	/////////////////////////////////////  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 	//////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 	
-	cout << "\n(Authorship) - infinite authentication tool\n\n"
+	cout << "\n(Authorship)\n\n"
 	
 	     << "(1) Create - get a number only you can modify--which anyone can verify.\n"
-	     << "(2) Modify - needs file Authorship.private. Creates Authorship.public.\n"
-	     << "(3) Verify - needs their files Authorship.public (rename if needed) and\n"
-	     << "             Authorship.number (128 char you retain, create file if needed.)\n\n"
+	     << "(2) Modify - needs Authorship.private file to make Authorship.public file.\n"
+	     << "(3) Verify - needs both their Authorship.public and Authorship.number files.\n\n"
 	
 	     << "Enter option: ";
 	
