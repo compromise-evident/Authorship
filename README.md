@@ -183,6 +183,15 @@ evidence--Julian Assange and Edward Snowden--this is for you!
 <br>
 <br>
 
+## Start your own manual crypto without programming or blockchains
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Start-your-own-crypto-instantly.png">
+</p>
+
+<br>
+<br>
+
 # Your fluid number retained by the verifying party:
 
 ```text
@@ -220,12 +229,3 @@ dZKlMAe<'cdKG?okG-,k?EIc*?1\FJ7&yV,x~sdMxf@+}[jI/=
 .
 
 ```
-
-<br>
-<br>
-
-## Start your own manual crypto without programming or blockchains
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Start-your-own-crypto-instantly.png">
-</p>
