@@ -156,7 +156,7 @@ public files so information source can be trusted.**
 # How it works; missing information is information
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Extra_help_863830812dcd88378b1523fcbd8117adabfec016d79cd44af7757b30c2547a1c.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Extra_help_c353f42fb89f9d2b7ad5ebaa781d74c0179b320acad19116ad1d85bea034e3b6.png">
 </p>
 
 **Your Authorship number is a sha512sum hash of a long list of encrypted items.
@@ -170,7 +170,7 @@ this prevents censorship attacks where keys are withheld for misrepresentation.
 And this binary symbolism actually represents a *hash* of your new number & message.**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_documentation_69e9dc3fe984973ad0ec7f7a86d7489fe72a77915c1431abe2c971460e14d509.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_documentation_bed542e33eb4117047f7f025b7a9ded49ff4d77f8d96db3a8681d57a0990c345.png">
 </p>
 
 I discovered Authorship December 2019, which would not have been possible without
