@@ -170,7 +170,7 @@ this prevents censorship attacks where keys are withheld for misrepresentation.
 And this binary symbolism actually represents a *hash* of your new number & message.**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_documentation_bed542e33eb4117047f7f025b7a9ded49ff4d77f8d96db3a8681d57a0990c345.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_documentation_34099cf01d09661b5b9de1cd81bef9c38ea5a5d962ae63c4f016236a4641c4f2.png">
 </p>
 
 I discovered Authorship December 2019, which would not have been possible without
