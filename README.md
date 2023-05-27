@@ -24,14 +24,14 @@ Include 9,000-character messages per event.
 
 # Deep fakes non-authorship proof
 
-**Soon, digitally authenticating everything you do will become the norm. This way,
+Soon, digitally authenticating everything you do will become the norm. This way,
 you can protect yourself from that which you don't authenticate--impersonation.
 Authorship is computational difficulty and super-flexibility in endless cryptographic
 evidence. Get a number, preferably before you are subject to censorship or worse.
 Once you become a threat, you'll be expected to modify that number so we can rest
 assured that any further correspondence from you is not impersonation.
 Include 9,000-character messages per event, Authorship ties this data to your
-public files so information source can be trusted.**
+public files so information source can be trusted.
 
 <br>
 <br>
@@ -159,15 +159,15 @@ public files so information source can be trusted.**
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/What_it_does_033103d92dbb4fb313ad34520316faac7aea523ab85c8a12a1164a497909053d.png">
 </p>
 
-**Your Authorship number is a sha512sum hash of a long list of encrypted items.
+Your Authorship number is a sha512sum hash of a long list of encrypted items.
 Now consider generating another number, then forcing your old list to represent this
 new number by selectively revealing solutions to that old list where solutions
 published = 1, and solutions missing = 0. This binary code represents your new number,
-and any 9,000-character message of your choice.**
+and any 9,000-character message of your choice.
 
-**Half of each list must be solved per event,
+Half of each list must be solved per event,
 this prevents censorship attacks where keys are withheld for misrepresentation.
-And this binary symbolism actually represents a *hash* of your new number & message.**
+And this binary symbolism actually represents a *hash* of your new number & message.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_documentation_34099cf01d09661b5b9de1cd81bef9c38ea5a5d962ae63c4f016236a4641c4f2.png">
