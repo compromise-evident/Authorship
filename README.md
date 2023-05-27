@@ -156,7 +156,7 @@ public files so information source can be trusted.**
 # How it works; missing information is information
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Extra_help_322440bceca627a8d747b776fccb93bd2323e215cd08a86bf11ad8dd7e83279e.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/What_it_does_033103d92dbb4fb313ad34520316faac7aea523ab85c8a12a1164a497909053d.png">
 </p>
 
 **Your Authorship number is a sha512sum hash of a long list of encrypted items.
