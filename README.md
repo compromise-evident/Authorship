@@ -164,9 +164,9 @@ Now consider generating another number, then forcing your old list to represent 
 new number by selectively revealing solutions to that old list where solutions
 published = 1, and solutions missing = 0. This binary represents your new # and 9,000-character message.
 
-Half of each list must be solved per event,
-this prevents censorship attacks where keys are withheld for misrepresentation.
-And this binary symbolism actually represents a *hash* of your new number & message.
+Half of each list is solved per event, preventing censorship attacks where keys are withheld for misrepresentation.
+And this "presence and absence of keys" actually represents a *hash* of your new number & message.
+(Your new number & message is automatically appended to until its hash is bit-distributed.)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_documentation_b19e0021f192f4e94d20fe96346c15362578ff4eb85c3749043c2253bba9bf8e.png">
