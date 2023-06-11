@@ -162,7 +162,7 @@ public files so information source can be trusted.
 Your Authorship number is a sha512sum hash of a long list of encrypted items.
 Now consider generating another number, then forcing your old list to represent this
 new number by selectively revealing solutions to that old list where solutions
-published = 1, and solutions missing = 0. This binary represents your new # & 9,000-char message.
+published = 1, and solutions missing = 0. This binary represents your new # and 9,000-char message.
 
 Half of each list must be solved per event,
 this prevents censorship attacks where keys are withheld for misrepresentation.
