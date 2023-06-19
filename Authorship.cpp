@@ -1,4 +1,4 @@
-/// Authorship - infinite authentication tool.
+/// Authorship - infinite data authentication tool.
 /// Nikolay Valentinovich Repnitskiy - License: WTFPLv2+ (wtfpl.net)
 
 
