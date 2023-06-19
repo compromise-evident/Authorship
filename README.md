@@ -1,5 +1,5 @@
 <!---
-Infinite authentication tool of 16 features.
+Infinite data authentication tool of 16 features.
 Get a number only you can modify--which anyone can verify.
 Include 9,000-character messages per event.
 285kB disposable public files are text.
