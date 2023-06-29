@@ -121,7 +121,12 @@ public files so information source can be trusted.
     and even philosophical puzzles. A deeper essence of Authorship is what emerges
     when solutions are withheld, selectively. No matter the encrypted item type,
     it stands alone to serve as something solved or unsolved (2 actions.)
-    Authorship does not depend on item particularities in order to assemble those items.) <br>
+    Authorship does not depend on item particularities in order to assemble those items.)
+17. **Physical difficulty-type-independent authentication**
+    (feature 16; the core of Authorship is that keys being withheld is information.
+    Keys can also be solutions to (or proof of compromise for) anything physical,
+    while the same hash and message system can be used to describe the next set
+    of physical difficulties, their location, and other attributes.) <br>
 
 * **Cryptographer's acknowledgement** - you may need to verify that your new number
     is available to the public or verifying party--as you can be censored in some
