@@ -125,7 +125,7 @@ public files so information source can be trusted.
 17. **Physical difficulty-type-independent authentication**
     (feature 16; the core of Authorship is that keys being withheld is information.
     Keys can also be solutions to (or proof of compromise for) anything physical,
-    while the same hash and message system can be used to describe the next set
+    while a similar hash and message system can be used to describe the next set
     of physical difficulties, their location, and other attributes.) <br>
 
 * **Cryptographer's acknowledgement** - you may need to verify that your new number
