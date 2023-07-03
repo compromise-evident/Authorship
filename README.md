@@ -115,6 +115,11 @@ public files so information source can be trusted.
     every key; modifying parties indefinitely withhold all-new secrets for each event.
     And thanks to super-flexibility of Authorship, those secrets can increase
     in size and quantity forever.)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Feature_16_prominence_0d71f9581e898c3236a1dd069ef8fd1ca10c7895c6dde84907ba7bd0853fd690.png">
+</p>
+
  16. **Encryption-type-independent authentication**
     (feature 15; the essence of Authorship is a clever assembly of encrypted items.
     Those items can be anything of difficulty, including riddles, encrypted files,
