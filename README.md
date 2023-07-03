@@ -116,6 +116,8 @@ public files so information source can be trusted.
     And thanks to super-flexibility of Authorship, those secrets can increase
     in size and quantity forever.)
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Feature_16_prominence_0d71f9581e898c3236a1dd069ef8fd1ca10c7895c6dde84907ba7bd0853fd690.png">
 </p>
