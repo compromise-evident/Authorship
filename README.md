@@ -120,7 +120,7 @@ public files so information source can be trusted.
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Feature_16_prominence_0d71f9581e898c3236a1dd069ef8fd1ca10c7895c6dde84907ba7bd0853fd690.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Feature_16_line_ae99ee269ecd2dd532b8cdc13decf835857e61b904a453d9fc032511033c24f6.png">
 </p>
 
  16. **Encryption-type-independent authentication**
@@ -130,6 +130,10 @@ public files so information source can be trusted.
     when solutions are withheld, selectively. No matter the encrypted item type,
     it stands alone to serve as something solved or unsolved (2 actions.)
     Authorship does not depend on item particularities in order to assemble those items.)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Feature_16_line_ae99ee269ecd2dd532b8cdc13decf835857e61b904a453d9fc032511033c24f6.png">
+</p>
 
 <br>
 <br>
