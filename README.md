@@ -139,9 +139,6 @@ public files so information source can be trusted.
     Keys can also be solutions to (or proof of compromise for) anything physical,
     while a similar hash and message system can be used to describe the next set
     of physical difficulties, their location, and other attributes.)
-
--------------------------------------------------
-
 * **Cryptographer's acknowledgement** - you may need to verify that your new number
     is available to the public or verifying party--as you can be censored in some
     extreme circumstances. Here, the verifying party may arrange to modify their
