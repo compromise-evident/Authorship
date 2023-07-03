@@ -126,7 +126,10 @@ public files so information source can be trusted.
     and even philosophical puzzles. A deeper essence of Authorship is what emerges
     when solutions are withheld, selectively. No matter the encrypted item type,
     it stands alone to serve as something solved or unsolved (2 actions.)
-    Authorship does not depend on item particularities in order to assemble those items.) <br>
+    Authorship does not depend on item particularities in order to assemble those items.)
+
+<br>
+<br>
 
  17. **Physical difficulty-type-independent authentication**
     (feature 16; the core of Authorship is that keys being withheld is information.
