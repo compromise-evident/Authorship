@@ -117,6 +117,7 @@ public files so information source can be trusted.
     in size and quantity forever.)
 
 <br>
+<br>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Feature_16_prominence_0d71f9581e898c3236a1dd069ef8fd1ca10c7895c6dde84907ba7bd0853fd690.png">
