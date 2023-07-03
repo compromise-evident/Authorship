@@ -128,7 +128,7 @@ public files so information source can be trusted.
     it stands alone to serve as something solved or unsolved (2 actions.)
     Authorship does not depend on item particularities in order to assemble those items.) <br>
 
-18. **Physical difficulty-type-independent authentication**
+ 17. **Physical difficulty-type-independent authentication**
     (feature 16; the core of Authorship is that keys being withheld is information.
     Keys can also be solutions to (or proof of compromise for) anything physical,
     while a similar hash and message system can be used to describe the next set
