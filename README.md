@@ -63,7 +63,7 @@ evidence--Julian Assange and Edward Snowden--this is for you!
 <br>
 <br>
 
-# Your fluid number retained by the verifying party:
+# Your fluid number retained by the verifying party
 
 ```text
 9d70ee064b0310c66a0bec6d74004cfbdac7e36e1b41bbc477fdf9de5d40cf3aa416f1f396c1958c609720d6d84bd522c45cdd6954f49a46ad6ccc64fc372db6
