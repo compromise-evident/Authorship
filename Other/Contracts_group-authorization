@@ -1,0 +1,24 @@
+Note on contracts
+
+
+
+Previous versions had 3 more options: Govern, Secure, Settle.
+
+In previous versions, multiple users/oracles generate
+ciphertext then combine them as a list where everyone
+agreed that the hash (number) of that list is the same.
+
+This way, each oracle has certainty that their
+ciphertext had indeed been included in that list.
+
+...So that when it's time to judge a circumstance
+and authorize a transaction based on that judgment,
+satisfied oracles share their keys while unsatisfied
+oracles withhold their keys--stalling the transaction.
+
+
+
+In version 7.0.0, if you ensure that numbers are always
+an average honest hash, you may for example, have two
+oracles generate half the required ciphertext for a list.
+Increase number of oracles through higher list partition.
