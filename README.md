@@ -1,8 +1,6 @@
 <!---
-Infinite data authentication tool of 17 features.
+Infinite data authentication independent of encryption type or symmetry.
 Get a number only you can modify--which anyone can verify.
-Include 9,000-character messages per event.
-285kB disposable public files are text.
 -->
 
 
