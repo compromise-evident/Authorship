@@ -24,6 +24,8 @@ Include 9,000-character messages per event.
 
 # Deepfakes non-authorship proof
 
+
+
 Soon, digitally authenticating everything you do will become the norm. This way,
 you can protect yourself from that which you don't authenticate--impersonation.
 Authorship is computational difficulty and super-flexibility in endless cryptographic
@@ -31,7 +33,7 @@ evidence. Get a number, preferably before you are subject to censorship or worse
 Once you become a threat, you'll be expected to modify that number so we can rest
 assured that any further correspondence from you is not impersonation.
 Include 9,000-character messages per event, Authorship ties this data to your
-public files so information source can be trusted.
+disposable public files so information source can be trusted.
 
 <br>
 <br>
@@ -69,7 +71,7 @@ evidence--Julian Assange and Edward Snowden--this is for you!
 9d70ee064b0310c66a0bec6d74004cfbdac7e36e1b41bbc477fdf9de5d40cf3aa416f1f396c1958c609720d6d84bd522c45cdd6954f49a46ad6ccc64fc372db6
 ```
 
-## Published per event. Once verified, this needs not exist anywhere ------>
+### Disposable public file published per event. Once verified, this needs not exist anywhere ------>
 
 ```text
 Authorship.public v7.0.0=
