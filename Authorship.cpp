@@ -1,4 +1,5 @@
-/// Authorship - infinite data authentication tool.
+/// Authorship - infinite data authentication independent of encryption type or symmetry.
+///              Get a number only you can modify--which anyone can verify.
 /// Nikolay Valentinovich Repnitskiy - License: WTFPLv2+ (wtfpl.net)
 
 
