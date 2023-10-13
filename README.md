@@ -71,7 +71,7 @@ evidence--Julian Assange and Edward Snowden--this is for you!
 9d70ee064b0310c66a0bec6d74004cfbdac7e36e1b41bbc477fdf9de5d40cf3aa416f1f396c1958c609720d6d84bd522c45cdd6954f49a46ad6ccc64fc372db6
 ```
 
-### Disposable public file published per event. Once verified, this needs not exist anywhere ------>
+### Disposable public file published per event. Once verified, it needs not exist anywhere
 
 ```text
 Authorship.public v7.0.0=
