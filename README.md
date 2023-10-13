@@ -22,8 +22,6 @@ Get a number only you can modify--which anyone can verify.
 
 # Deepfakes non-authorship proof
 
-
-
 Soon, digitally authenticating everything you do will become the norm. This way,
 you can protect yourself from that which you don't authenticate--impersonation.
 Authorship is computational difficulty and super-flexibility in endless cryptographic
@@ -32,6 +30,10 @@ Once you become a threat, you'll be expected to modify that number so we can res
 assured that any further correspondence from you is not impersonation.
 Include 9,000-character messages per event, Authorship ties this data to your
 disposable public files so information source can be trusted.
+
+**Authentication...** You can't prove that you created your content, or that it's not fake or false.
+But you can prove it's coming from you, not impersonation. And you're NEVER locked-in to any type
+or paradigm of encryption.
 
 <br>
 <br>
