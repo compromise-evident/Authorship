@@ -42,7 +42,7 @@ Here, Authorship.cpp uses a type of ciphertext called multi-way or step-down fun
 # How it works; missing information is information
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Extra_help_e003a9bc5aad489476adbda485ea6ab8010989fd6ed23bbaa8aa694c3c191275.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Extra_help_63c952b5ea0bab6db1a17486cfab3d50746e78f215493b82faea26ac7f7cfaf7.png">
 </p>
 
 Your Authorship number is a sha512sum hash of a long list of encrypted items.
