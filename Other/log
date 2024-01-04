@@ -11,14 +11,14 @@ no back compat  User messages can now be 9,000 char. No more 5/9;  instead, half
                 Removed sector_accident_detection & bulk_verification_efficiency
                 & automation for group/oracle/contracts for minimalism.
                 This is an incredible efficiency and security gain.
-                Thursday, April 20 2023
+                Apr 20 2023
 
 Version 6.0.1   Independence from the \r\n fuckery of copy/paste and other OSes.
                 See characters 13 and 10 in  RawVisual.cpp  in repo:  RawVisual.
                 Fully-compatible with previous, upgrade at will.
-                Sunday, June 27 2021
+                Jun 27 2021
 
-Version 6       Smart contracts and group authorization.   Fully compatible with
+Version 6.0.0   Smart contracts and group authorization.   Fully compatible with
                 version 5.1. In fact,  you may remove options  4, 5, and 6  from
                 the source code.  Highly configure-able, free from entanglement.
                 Essentially an Authorship.private file is generated collectively
@@ -32,15 +32,15 @@ Version 6       Smart contracts and group authorization.   Fully compatible with
                 For example, first time you are governor number 1 with 12 symbol
                 responsibilities and the second time you are governor number two
                 with 100 symbol responsibilities. Then continue on to option  5.
-                Wednesday, June 23 2021
+                Jun 23 2021
 
-Version 5.1     Added over-kill security--and 2s run-time.  Each actual_key[] is
+Version 5.1.0   Added over-kill security--and 2s run-time.  Each actual_key[] is
                 further transformed using 100  ~11-digit secondary_seeds[] which
                 are assembled from the 1,008 strings of 1,000 char seeds (keys.)
              -> MAJOR CHANGE, files not compatible with previous.
-                Tuesday, March 16 2021
+                Mar 16 2021
 
-Version 5       Built AuthorshipFemto--the tiny fast version and it was good, so
+Version 5.0.0   Built AuthorshipFemto--the tiny fast version and it was good, so
                 Authorship is now a bulky version of AuthorshipFemto. This means
                 complete redesign from the ground up.Both produce a 32-character
                 number but Authorship takes 5 seconds to run.    AuthorshipFemto
@@ -52,16 +52,16 @@ Version 5       Built AuthorshipFemto--the tiny fast version and it was good, so
                 you can still paste to & download from pastebins like stikked.ch
                 as a way to publish your  Authorship.public  files (613kB here.)
                 Authorship.private files are 1MB now, not 238!
-                Sunday, March 14 2021
+                Mar 14 2021
 
-Version 4.5     Replaced 6 digits: prevents value 100,000 from slipping in while
+Version 4.5.0   Replaced 6 digits: prevents value 100,000 from slipping in while
                 adjusting identifying properties for primality on 5-digit primes
                 which was discovered while building AuthorshipFemto.  (All users
                 are expected to have published multiple numbers for safety.) All
                 files here are compatible with Authorship version 4.4.
-                Monday, March 08 2021
+                Mar 8 2021
 
-Version 4.4     ALL OK NOW!  Milking the shit out of deductive lossy compression
+Version 4.4.0   ALL OK NOW!  Milking the shit out of deductive lossy compression
                 beginning with version 4.3.   Hash (deductive lossy compression)
                 now scrapes  ALL  hot zone digits and only hot zone digits! It's
                 infrastructure remains for future adjustment for cool zone hash.
@@ -81,9 +81,9 @@ Version 4.4     ALL OK NOW!  Milking the shit out of deductive lossy compression
                 requiring blind  modifications  to  the  first  sub-key  and the
                 transformation determinant. "Blind" is due to the  unpredictable
                 outcome of sub-key transformation. A 6-year journey not wasted.
-                Tuesday, February 23 2021
+                Feb 23 2021
                 ^^^^^^^^^^^^^^^^IMMEDIATE JOINED EFFORT WITH 4.3^^^^^^^^^^^^^^^^
-Version 4.3     Fixed the issue of identifying  properties being too  narrow and
+Version 4.3.0   Fixed the issue of identifying  properties being too  narrow and
                 not intertwined and interdependent:reduced chances of generating
                 1 and 2-digit primes, reduced  tolerance of the following array:
                 prime_lengths_in_order_SUBn[] where n is 2, 4, and 6 (reduced to
@@ -104,7 +104,7 @@ Version 4.3     Fixed the issue of identifying  properties being too  narrow and
                 some point you'll  need to  backtrack  and reduce  the length of
                 of your prime cluster and this tree-search takes time unless you
                 already have solution ingredients.
-                Sunday, February 21 2021
+                Feb 21 2021
 
 Version 4.2.1   Added important note in src- super-flexibility for non-technical
                 users who might not grasp the god-mode in function hot-swapping.
@@ -115,18 +115,18 @@ Version 4.2.1   Added important note in src- super-flexibility for non-technical
                 (Slight efficiency improvement, no difference in functionality.)
                 No major difference; UPGRADES TO 4.2.1 WILL NOT BREAK v4+ FILES!
                 All users should use version 4.2+ for maximum storage safety.
-                Monday, February 15 2021
+                Feb 15 2021
 
-Version 4.2     Detects bad sectors on HDD  (writes from RAM, reads it back, and
+Version 4.2.0   Detects bad sectors on HDD  (writes from RAM, reads it back, and
                 compares it to what's in the RAM. (ACTIVE FOR ALL FILES!)  Users
                 cannot continue if bad storage device--this  is  like  automatic
                 verification but better, it's bit-for-bit!   Program suggests to
                 user if bad HDD: write a few GB  of  dummy-files  to consume the
                 bad HDD areas, then try again. Now aggressive status of what the
                 program is doing so users don't think it's hung.
-                Thursday, February 11 2021
+                Feb 11 2021
 
-Version 4.1     Safety & instructions improvements. Added how to make executable
+Version 4.1.0   Safety & instructions improvements. Added how to make executable
                 using g++    Added file checking for extra safety. Documentation
                 PDF file now includes the two additional uses of interest: voter
                 fraud prevention, animal theft management,  and group & military
@@ -139,9 +139,9 @@ Version 4.1     Safety & instructions improvements. Added how to make executable
                 there will be a version-up so auditors can know!!! It is already
                 an obligation to upload src to  Coliru  for archiving snapshots,
                 restricting myself from modifying things, & clarity in auditing.
-                Thursday, January 28 2021
+                Jan 28 2021
 
-Version 4       Added to the key transformation process (big deal and security update.)
+Version 4.0.0   Added to the key transformation process (big deal and security update.)
                 Minor changes and re-structuring. Integer jumps in version numbers means big
                 improvements and effectiveness while fractional jumps singify non-vital things.
                 More RAM overwriting. Somewhere in my timeline there will be an Authorship
@@ -153,36 +153,36 @@ Version 4       Added to the key transformation process (big deal and security u
                 the extensive addition in sub-key transformation. Additionally, verification time has been
                 raised from a handful of seconds to 5 minutes, also due to the enhanced key transformation
                 because what is done in key gen is mirrored in verif. Fixed instructions, explanations, safety.
-                Tuesday, January 26 2021
+                Jan 26 2021
 
-Version 3.3     Replaced certain tabs with spaces to align code where formatting is problematic
+Version 3.3.0   Replaced certain tabs with spaces to align code where formatting is problematic
                 (github and pastebin have problems with this while Coliru shines bright! Why?)
                 Minor structure changes.
-                Monday, December 07 2020
+                Dec 7 2020
 
-Version 3.2     Code-aesthetics, extra detail on "fail message" output.
+Version 3.2.0   Code-aesthetics, extra detail on "fail message" output.
                 Documentation file lightly rewritten to a generic style and should not
                 require a version-change for every time Authorship_n.cpp is improved.
-                Friday, November 13 2020.
+                Nov 13 2020
 
-Version 3.1     Non-programmer access to fair trade (program will generate your new number,
+Version 3.1.0   Non-programmer access to fair trade (program will generate your new number,
                 pause, and display it in case it's needed for trade or if some verifying party
                 had lost your number or began verification then and there.)
-                Saturday, November 7 2020.
+                Nov 7 2020
 
-Version 3       Unsolved functions in Authorship.public files are not published,
+Version 3.0.0   Unsolved functions in Authorship.public files are not published,
                 while publishing only the digits used for deductive lossy compression.
                 Authorship.public files are reduced from ~207MB down to ~138MB (~69MB saved.)
                 Both versions 2 & 3 force attackers to search for functional ciphertext which
                 must contain 495 predetermined hash-digits dispersed across the function.
-                Monday, November 2 2020.
+                Nov 2 2020
 
-Version 2       Unsolved functions in Authorship.public files are overwritten with zeros,
+Version 2.0.0   Unsolved functions in Authorship.public files are overwritten with zeros,
                 leaving out only the digits used for deductive lossy compression.
-                Sunday, November 1 2020
+                Nov 1 2020
 
-Version 1       Authorship.cpp was ready some time after making new electronified documentation.
-                Friday, August 28 2020.
+Version 1.0.0   Authorship.cpp was ready some time after making new electronified documentation.
+                Aug 28 2020
 
 Before that     After quite a search and a hundred cryptillion scribbles, I had given up and settled on
                 the finite one-time precomputed chain from before. And after having thought about such
