@@ -1,6 +1,6 @@
-<!---
-Infinite data authentication independent of encryption type or symmetry.
-Get a number only you can modify--which anyone can verify.
+<!--
+/// Authorship - infinite data authentication independent of encryption type or symmetry.
+///              Get a number only you can modify--which anyone can verify.
 -->
 
 
@@ -15,7 +15,7 @@ Get a number only you can modify--which anyone can verify.
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Terminal_52078c61f8d6016ab6f26ab84eabd57e34eeb30595e724c4c475ea3580ed14d8.png">
 </p>
 
-[Auditing in the browser?](https://coliru.stacked-crooked.com/a/fe7c39b38b74938c) | [No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Authorship/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf)
+[No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Authorship/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf)
 
 <br>
 <br>
