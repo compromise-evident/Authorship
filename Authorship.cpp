@@ -92,19 +92,19 @@ int main()
 		//Gets seeds for RNG.
 		unsigned int user_seeds[50] = {0};
 		if(testing_mode == false)
-		{	//Gets 50 seeds from the user.
+		{	//..........Gets 50 seeds from the user.
 			cout << "\nEnter a random 8-digit integer, repeat 50 times.\n\n";
 			for(int a = 0; a < 50; a++)
-			{	if(a < 9) {cout << " " << (a + 1) << " of 50: ";} //Blank for aesthetics.
+			{	if(a < 9) {cout << " " << (a + 1) << " of 50: ";} //..........Blank for aesthetics.
 				else      {cout <<        (a + 1) << " of 50: ";}
 				
-				//Gets and checks input.
+				//..........Gets and checks input.
 				cin >> user_seeds[a];
 				if((user_seeds[a] > 99999999) || (user_seeds[a] < 10000000)) {cout << "\nOut of bounds, try again.\n"; return 0;}
 			}
 		}
 		else
-		{	//Fills seeds automatically (not secure, please turn off testing_mode.)
+		{	//..........Fills seeds automatically (not secure, please turn off testing_mode.)
 			cout << "\nCAUTION: testing_mode is turned on!  Use of these files is strongly discouraged!";
 			srand(time(0));
 			for(int a = 0; a < 50; a++) {user_seeds[a] = (rand() % 100000000);}
@@ -128,13 +128,13 @@ int main()
 		0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 		0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 		000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000  */
-		unsigned char functions[50400] = {0}; //Eventually  becomes 1,008 contiguous    50-character functions (encrypted.)
-		unsigned char keys   [1008000] = {0}; //Immediately becomes 1,008 contiguous 1,000-character keys (used as seeds.)
+		unsigned char functions[50400] = {0}; //..........Eventually  becomes 1,008 contiguous    50-character functions (encrypted.)
+		unsigned char keys   [1008000] = {0}; //..........Immediately becomes 1,008 contiguous 1,000-character keys (used as seeds.)
 		for(int a = 0; a < 50; a++)
 		{	srand(user_seeds[a]);
 			
 			if((user_seeds[a] % 2) == 0)
-			{	//Constructively fills functions[] and keys[] LEFT to right based on seeds.
+			{	//..........Constructively fills functions[] and keys[] LEFT to right based on seeds.
 				for(int b = 0; b < 50400; b++)
 				{	functions[b] += (rand() % 10);
 					functions[b] %= 10;
@@ -146,7 +146,7 @@ int main()
 				}
 			}
 			else
-			{	//Constructively fills functions[] and keys[] RIGHT to left based on seeds.
+			{	//..........Constructively fills functions[] and keys[] RIGHT to left based on seeds.
 				for(int b = 50399; b >= 0; b--)
 				{	functions[b] += (rand() % 10);
 					functions[b] %= 10;
@@ -160,10 +160,10 @@ int main()
 		}
 		
 		//Generates additional seeds from keys[] for additional transformation of actual_key[] before encryption.
-		long long secondary_seeds[100800] = {0}; //Assembles 100 (mostly 11-digit) seeds per key, from each of the 1,008 1,000-character keys.
+		long long secondary_seeds[100800] = {0}; //..........Assembles 100 (mostly 11-digit) seeds per key, from each of the 1,008 1,000-character keys.
 		int keys_read_bookmark = 0;
 		int secondary_seeds_write_bookmark = 0;
-		for(int a = 0; a < 100800; a++) //100,800 comes from 10 contiguous key characters being scraped at once, 100,800 times. Recall that keys[] is 10x bigger.
+		for(int a = 0; a < 100800; a++) //..........100,800 comes from 10 contiguous key characters being scraped at once, 100,800 times. Recall that keys[] is 10x bigger.
 		{	for(int b = 0; b < 10; b++)
 			{	secondary_seeds[secondary_seeds_write_bookmark] *= 10;
 				secondary_seeds[secondary_seeds_write_bookmark] += keys[keys_read_bookmark + b];
@@ -175,15 +175,15 @@ int main()
 		
 		//Generates 1,008 contiguous 50-digit plaintext (each composed of 10 contiguous 5-digit primes.)
 		//Randomness in functions[] is used to create this plaintext then functions[] is overwritten with it.
-		bool sieve[100000] = {1, 1}; //Boolean sieve of Eratosthenes. Zeros are mapped to prime elements.
-		for(int prime = 2; prime < 317; prime++) //317 is sqrt(100,000)
+		bool sieve[100000] = {1, 1}; //..........Boolean sieve of Eratosthenes. Zeros are mapped to prime elements.
+		for(int prime = 2; prime < 317; prime++) //..........317 is sqrt(100,000)
 		{	for(int a = prime + prime; a < 100000; a += prime) {sieve[a] = 1;}
 		}
 		
 		int functions_read_bookmark  = 0;
 		int functions_write_bookmark = 0;
-		for(int a = 0; a < 10080; a++) //50,400/5 = 10,080 total 5-digit primes.
-		{	//Unloads 5 array elements to make one integer.
+		for(int a = 0; a < 10080; a++) //..........50,400/5 = 10,080 total 5-digit primes.
+		{	//..........Unloads 5 array elements to make one integer.
 			int temp_5_digit_prime;
 			temp_5_digit_prime  = functions[functions_read_bookmark    ]; if(temp_5_digit_prime == 0) {temp_5_digit_prime++;} temp_5_digit_prime *= 10;
 			temp_5_digit_prime += functions[functions_read_bookmark + 1]; temp_5_digit_prime *= 10;
@@ -191,13 +191,13 @@ int main()
 			temp_5_digit_prime += functions[functions_read_bookmark + 3]; temp_5_digit_prime *= 10;
 			temp_5_digit_prime += functions[functions_read_bookmark + 4];
 			
-			//Adjusts temp_5_digit_prime for primality (tests & searches in pos dir.) If length > 5, sets to largest 5-digit prime.
+			//..........Adjusts temp_5_digit_prime for primality (tests & searches in pos dir.) If length > 5, sets to largest 5-digit prime.
 			while(sieve[temp_5_digit_prime] == 1)
 			{	if(temp_5_digit_prime > 99991) {temp_5_digit_prime = 99991; break;}
 				temp_5_digit_prime++;
 			}
 			
-			//Writes the prime to functions[].
+			//..........Writes the prime to functions[].
 			functions[functions_write_bookmark + 4] = (temp_5_digit_prime % 10); temp_5_digit_prime /= 10;
 			functions[functions_write_bookmark + 3] = (temp_5_digit_prime % 10); temp_5_digit_prime /= 10;
 			functions[functions_write_bookmark + 2] = (temp_5_digit_prime % 10); temp_5_digit_prime /= 10;
@@ -214,18 +214,18 @@ int main()
 		keys_read_bookmark = 0;
 		unsigned char actual_key[50] = {0};
 		int secondary_seeds_read_bookmark = 0;
-		for(int a = 0; a < 1008; a++) //Generates random numbers in array actual_key[].
-		{	for(int b = 0; b < 1000; b++) //Constructively applies randomness based on keys[] (used as seeds, 1,000 items per actual_key[].)
+		for(int a = 0; a < 1008; a++) //..........Generates random numbers in array actual_key[].
+		{	for(int b = 0; b < 1000; b++) //..........Constructively applies randomness based on keys[] (used as seeds, 1,000 items per actual_key[].)
 			{	srand(keys[keys_read_bookmark]);
 				
 				if((keys[keys_read_bookmark] % 2) == 0)
-				{	for(int c = 0; c < 50; c++) //Fills left to right based on seeds.
+				{	for(int c = 0; c < 50; c++) //..........Fills left to right based on seeds.
 					{	actual_key[c] += (rand() % 95);
 						actual_key[c] %= 95;
 					}
 				}
 				else
-				{	for(int c = 49; c >= 0; c--) //Fills right to left based on seeds.
+				{	for(int c = 49; c >= 0; c--) //..........Fills right to left based on seeds.
 					{	actual_key[c] += (rand() % 95);
 						actual_key[c] %= 95;
 					}
@@ -234,18 +234,18 @@ int main()
 				keys_read_bookmark++;
 			}
 			
-			//Further transforms actual_key[] based on secondary_seeds[].
-			for(int b = 0; b < 100; b++) //Constructively applies randomness based on secondary_seeds[] (used as seeds, 100 11-digit integer per actual_key[].)
+			//..........Further transforms actual_key[] based on secondary_seeds[].
+			for(int b = 0; b < 100; b++) //..........Constructively applies randomness based on secondary_seeds[] (used as seeds, 100 11-digit integer per actual_key[].)
 			{	srand(secondary_seeds[secondary_seeds_read_bookmark]);
 				
 				if((secondary_seeds[secondary_seeds_read_bookmark] % 2) == 0)
-				{	for(int c = 0; c < 50; c++) //Fills left to right based on SECONDARY seeds.
+				{	for(int c = 0; c < 50; c++) //..........Fills left to right based on SECONDARY seeds.
 					{	actual_key[c] += (rand() % 95);
 						actual_key[c] %= 95;
 					}
 				}
 				else
-				{	for(int c = 49; c >= 0; c--) //Fills right to left based on SECONDARY seeds.
+				{	for(int c = 49; c >= 0; c--) //..........Fills right to left based on SECONDARY seeds.
 					{	actual_key[c] += (rand() % 95);
 						actual_key[c] %= 95;
 					}
@@ -254,7 +254,7 @@ int main()
 				secondary_seeds_read_bookmark++;
 			}
 			
-			//Layers encryption by again transforming actual_key[] using sha256sum AND sha512sum of key.
+			//..........Layers encryption by again transforming actual_key[] using sha256sum AND sha512sum of key.
 			out_stream.open("temp");
 			keys_read_bookmark -= 1000;
 			for(int b = 0; b < 1000; b++) {out_stream.put(keys[keys_read_bookmark + b]);}
@@ -280,7 +280,7 @@ int main()
 			}
 			in_stream.close();
 			
-			///Encrypts functions[] using actual_key[].
+			///..........Encrypts functions[] using actual_key[].
 			for(int b = 0; b < 50; b++)
 			{	functions[functions_write_bookmark] += actual_key[b];
 				functions[functions_write_bookmark] %= 95;
@@ -288,7 +288,7 @@ int main()
 				functions_write_bookmark++;
 			}
 			
-			//Resetting actual key. If not reset (in option 3) then string depends on keys not present.
+			//..........Resetting actual key. If not reset (in option 3) then string depends on keys not present.
 			for(int a = 0; a < 50; a++) {actual_key[a] = 0;}
 		}
 		
@@ -311,7 +311,7 @@ int main()
 		
 		//Writes functions and keys to file Authorship.private.
 		out_stream.open("Authorship.private");
-		out_stream << "DO NOT PUBLISH! Authorship.private v7.0.0=\r\n\r\n"; //46-byte header must be. Use "\r\n" for all returns (for max compatibility.)
+		out_stream << "DO NOT PUBLISH! Authorship.private v7.0.0=\r\n\r\n"; //..........46-byte header must be. Use "\r\n" for all returns (for max compatibility.)
 		for(int a = 0; a <  25600; a++) {out_stream.put(functions[a] + 32);} out_stream << "\r\n";
 		for(int a = 0; a < 512000; a++) {out_stream.put(keys     [a] + 32);}
 		out_stream.close();
@@ -375,9 +375,9 @@ int main()
 		char old_keys     [512000];
 		char header_waste;
 		in_stream.open("Authorship.private");
-		for(int a = 0; a < 46; a++) {in_stream.get(header_waste);} //Skips through the 46-character header.
+		for(int a = 0; a < 46; a++) {in_stream.get(header_waste);} //..........Skips through the 46-character header.
 		for(int a = 0; a < 25600; a++) {in_stream.get(old_functions[a]);}
-		in_stream.get(header_waste); in_stream.get(header_waste); //Skips the "\r\n" characters after the 1,008 functions.
+		in_stream.get(header_waste); in_stream.get(header_waste); //..........Skips the "\r\n" characters after the 1,008 functions.
 		for(int a = 0; a < 512000; a++) {in_stream.get(old_keys[a]);}
 		in_stream.close();
 		
@@ -389,19 +389,19 @@ int main()
 		//Gets seeds for RNG.
 		unsigned int user_seeds[50] = {0};
 		if(testing_mode == false)
-		{	//Gets 50 seeds from the user.
+		{	//..........Gets 50 seeds from the user.
 			cout << "\nEnter a random 8-digit integer, repeat 50 times.\n\n";
 			for(int a = 0; a < 50; a++)
 			{	if(a < 9) {cout << " " << (a + 1) << " of 50: ";} //Blank for aesthetics.
 				else      {cout <<        (a + 1) << " of 50: ";}
 				
-				//Gets and checks input.
+				//..........Gets and checks input.
 				cin >> user_seeds[a];
 				if((user_seeds[a] > 99999999) || (user_seeds[a] < 10000000)) {cout << "\nOut of bounds, try again.\n"; return 0;}
 			}
 		}
 		else
-		{	//Fills seeds automatically (not secure, please turn off testing_mode.)
+		{	//..........Fills seeds automatically (not secure, please turn off testing_mode.)
 			cout << "\nCAUTION: testing_mode is turned on!  Use of these files is strongly discouraged!";
 			srand(time(0));
 			for(int a = 0; a < 50; a++) {user_seeds[a] = (rand() % 100000000);}
@@ -425,13 +425,13 @@ int main()
 		0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 		0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 		000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000  */
-		unsigned char functions[50400] = {0}; //Eventually  becomes 1,008 contiguous    50-character functions (encrypted.)
-		unsigned char keys   [1008000] = {0}; //Immediately becomes 1,008 contiguous 1,000-character keys (used as seeds.)
+		unsigned char functions[50400] = {0}; //..........Eventually  becomes 1,008 contiguous    50-character functions (encrypted.)
+		unsigned char keys   [1008000] = {0}; //..........Immediately becomes 1,008 contiguous 1,000-character keys (used as seeds.)
 		for(int a = 0; a < 50; a++)
 		{	srand(user_seeds[a]);
 			
 			if((user_seeds[a] % 2) == 0)
-			{	//Constructively fills functions[] and keys[] LEFT to right based on seeds.
+			{	//..........Constructively fills functions[] and keys[] LEFT to right based on seeds.
 				for(int b = 0; b < 50400; b++)
 				{	functions[b] += (rand() % 10);
 					functions[b] %= 10;
@@ -443,7 +443,7 @@ int main()
 				}
 			}
 			else
-			{	//Constructively fills functions[] and keys[] RIGHT to left based on seeds.
+			{	//..........Constructively fills functions[] and keys[] RIGHT to left based on seeds.
 				for(int b = 50399; b >= 0; b--)
 				{	functions[b] += (rand() % 10);
 					functions[b] %= 10;
@@ -457,10 +457,10 @@ int main()
 		}
 		
 		//Generates additional seeds from keys[] for additional transformation of actual_key[] before encryption.
-		long long secondary_seeds[100800] = {0}; //Assembles 100 (mostly 11-digit) seeds per key, from each of the 1,008 1,000-character keys.
+		long long secondary_seeds[100800] = {0}; //..........Assembles 100 (mostly 11-digit) seeds per key, from each of the 1,008 1,000-character keys.
 		int keys_read_bookmark = 0;
 		int secondary_seeds_write_bookmark = 0;
-		for(int a = 0; a < 100800; a++) //100,800 comes from 10 contiguous key characters being scraped at once, 100,800 times. Recall that keys[] is 10x bigger.
+		for(int a = 0; a < 100800; a++) //..........100,800 comes from 10 contiguous key characters being scraped at once, 100,800 times. Recall that keys[] is 10x bigger.
 		{	for(int b = 0; b < 10; b++)
 			{	secondary_seeds[secondary_seeds_write_bookmark] *= 10;
 				secondary_seeds[secondary_seeds_write_bookmark] += keys[keys_read_bookmark + b];
@@ -472,15 +472,15 @@ int main()
 		
 		//Generates 1,008 contiguous 50-digit plaintext (each composed of 10 contiguous 5-digit primes.)
 		//Randomness in functions[] is used to create this plaintext then functions[] is overwritten with it.
-		bool sieve[100000] = {1, 1}; //Boolean sieve of Eratosthenes. Zeros are mapped to prime elements.
-		for(int prime = 2; prime < 317; prime++) //317 is sqrt(100,000)
+		bool sieve[100000] = {1, 1}; //..........Boolean sieve of Eratosthenes. Zeros are mapped to prime elements.
+		for(int prime = 2; prime < 317; prime++) //..........317 is sqrt(100,000)
 		{	for(int a = prime + prime; a < 100000; a += prime) {sieve[a] = 1;}
 		}
 		
 		int functions_read_bookmark  = 0;
 		int functions_write_bookmark = 0;
-		for(int a = 0; a < 10080; a++) //50,400/5 = 10,080 total 5-digit primes.
-		{	//Unloads 5 array elements to make one integer.
+		for(int a = 0; a < 10080; a++) //..........50,400/5 = 10,080 total 5-digit primes.
+		{	//..........Unloads 5 array elements to make one integer.
 			int temp_5_digit_prime;
 			temp_5_digit_prime  = functions[functions_read_bookmark    ]; if(temp_5_digit_prime == 0) {temp_5_digit_prime++;} temp_5_digit_prime *= 10;
 			temp_5_digit_prime += functions[functions_read_bookmark + 1]; temp_5_digit_prime *= 10;
@@ -488,13 +488,13 @@ int main()
 			temp_5_digit_prime += functions[functions_read_bookmark + 3]; temp_5_digit_prime *= 10;
 			temp_5_digit_prime += functions[functions_read_bookmark + 4];
 			
-			//Adjusts temp_5_digit_prime for primality (tests & searches in pos dir.) If length > 5, sets to largest 5-digit prime.
+			//..........Adjusts temp_5_digit_prime for primality (tests & searches in pos dir.) If length > 5, sets to largest 5-digit prime.
 			while(sieve[temp_5_digit_prime] == 1)
 			{	if(temp_5_digit_prime > 99991) {temp_5_digit_prime = 99991; break;}
 				temp_5_digit_prime++;
 			}
 			
-			//Writes the prime to functions[].
+			//..........Writes the prime to functions[].
 			functions[functions_write_bookmark + 4] = (temp_5_digit_prime % 10); temp_5_digit_prime /= 10;
 			functions[functions_write_bookmark + 3] = (temp_5_digit_prime % 10); temp_5_digit_prime /= 10;
 			functions[functions_write_bookmark + 2] = (temp_5_digit_prime % 10); temp_5_digit_prime /= 10;
@@ -511,18 +511,18 @@ int main()
 		keys_read_bookmark = 0;
 		unsigned char actual_key[50] = {0};
 		int secondary_seeds_read_bookmark = 0;
-		for(int a = 0; a < 1008; a++) //Generates random numbers in array actual_key[].
-		{	for(int b = 0; b < 1000; b++) //Constructively applies randomness based on keys[] (used as seeds, 1,000 items per actual_key[].)
+		for(int a = 0; a < 1008; a++) //..........Generates random numbers in array actual_key[].
+		{	for(int b = 0; b < 1000; b++) //..........Constructively applies randomness based on keys[] (used as seeds, 1,000 items per actual_key[].)
 			{	srand(keys[keys_read_bookmark]);
 				
 				if((keys[keys_read_bookmark] % 2) == 0)
-				{	for(int c = 0; c < 50; c++) //Fills left to right based on seeds.
+				{	for(int c = 0; c < 50; c++) //..........Fills left to right based on seeds.
 					{	actual_key[c] += (rand() % 95);
 						actual_key[c] %= 95;
 					}
 				}
 				else
-				{	for(int c = 49; c >= 0; c--) //Fills right to left based on seeds.
+				{	for(int c = 49; c >= 0; c--) //..........Fills right to left based on seeds.
 					{	actual_key[c] += (rand() % 95);
 						actual_key[c] %= 95;
 					}
@@ -531,18 +531,18 @@ int main()
 				keys_read_bookmark++;
 			}
 			
-			//Further transforms actual_key[] based on secondary_seeds[].
-			for(int b = 0; b < 100; b++) //Constructively applies randomness based on secondary_seeds[] (used as seeds, 100 11-digit integer per actual_key[].)
+			//..........Further transforms actual_key[] based on secondary_seeds[].
+			for(int b = 0; b < 100; b++) //..........Constructively applies randomness based on secondary_seeds[] (used as seeds, 100 11-digit integer per actual_key[].)
 			{	srand(secondary_seeds[secondary_seeds_read_bookmark]);
 				
 				if((secondary_seeds[secondary_seeds_read_bookmark] % 2) == 0)
-				{	for(int c = 0; c < 50; c++) //Fills left to right based on SECONDARY seeds.
+				{	for(int c = 0; c < 50; c++) //..........Fills left to right based on SECONDARY seeds.
 					{	actual_key[c] += (rand() % 95);
 						actual_key[c] %= 95;
 					}
 				}
 				else
-				{	for(int c = 49; c >= 0; c--) //Fills right to left based on SECONDARY seeds.
+				{	for(int c = 49; c >= 0; c--) //..........Fills right to left based on SECONDARY seeds.
 					{	actual_key[c] += (rand() % 95);
 						actual_key[c] %= 95;
 					}
@@ -551,7 +551,7 @@ int main()
 				secondary_seeds_read_bookmark++;
 			}
 			
-			//Layers encryption by again transforming actual_key[] using sha256sum AND sha512sum of key.
+			//..........Layers encryption by again transforming actual_key[] using sha256sum AND sha512sum of key.
 			out_stream.open("temp");
 			keys_read_bookmark -= 1000;
 			for(int b = 0; b < 1000; b++) {out_stream.put(keys[keys_read_bookmark + b]);}
@@ -577,7 +577,7 @@ int main()
 			}
 			in_stream.close();
 			
-			///Encrypts functions[] using actual_key[].
+			///..........Encrypts functions[] using actual_key[].
 			for(int b = 0; b < 50; b++)
 			{	functions[functions_write_bookmark] += actual_key[b];
 				functions[functions_write_bookmark] %= 95;
@@ -585,7 +585,7 @@ int main()
 				functions_write_bookmark++;
 			}
 			
-			//Resetting actual key. If not reset (in option 3) then string depends on keys not present.
+			//..........Resetting actual key. If not reset (in option 3) then string depends on keys not present.
 			for(int a = 0; a < 50; a++) {actual_key[a] = 0;}
 		}
 		
@@ -608,7 +608,7 @@ int main()
 		
 		//Writes functions and keys to file Authorship.private.
 		out_stream.open("Authorship.private");
-		out_stream << "DO NOT PUBLISH! Authorship.private v7.0.0=\r\n\r\n"; //46-byte header must be. Use "\r\n" for all returns (for max compatibility.)
+		out_stream << "DO NOT PUBLISH! Authorship.private v7.0.0=\r\n\r\n"; //..........46-byte header must be. Use "\r\n" for all returns (for max compatibility.)
 		for(int a = 0; a <  25600; a++) {out_stream.put(functions[a] + 32);} out_stream << "\r\n";
 		for(int a = 0; a < 512000; a++) {out_stream.put(keys     [a] + 32);}
 		out_stream.close();
@@ -628,11 +628,11 @@ int main()
 		
 		//Prints number and gets the user's message.
 		cout << "\nEnter a message to be authenticated (9k char max) else press enter:\n\n";
-		char nothing_to_see_here[1]; //Catching cached new line. GNU+Linux does not perform auto-clearing of char input, the "enter" you pressed just
-		cin.getline(nothing_to_see_here, 1); //before this is eaten by the next available cin.getline(), in this case--by variable nothing_to_see_here.
+		char nothing_to_see_here[1]; //..........Catching cached new line. GNU+Linux does not perform auto-clearing of char input, the "enter" you pressed just
+		cin.getline(nothing_to_see_here, 1); //..........before this is eaten by the next available cin.getline(), in this case--by variable nothing_to_see_here.
 		
-		char message[10000] = {'\0'}; //Now that the new line is caught, message[] can safely eat actual typed characters.
-		cin.getline(message, 10000);  //Init to '\0' sets remaining to null, this line will not do that on its own after input!
+		char message[10000] = {'\0'}; //..........Now that the new line is caught, message[] can safely eat actual typed characters.
+		cin.getline(message, 10000);  //..........Init to '\0' sets remaining to null, this line will not do that on its own after input!
 		message[9000] = '\0';
 		
 		//Creates hash of message and new_number, where the hash is composed of 256 0 bits and 256 1 bits.
@@ -655,7 +655,7 @@ int main()
 			in_stream.open("distributed_hash");
 			for(int a = 0; a < 128; a++)
 			{	in_stream.get(garbage_byte);
-				if     (garbage_byte == '0') {zeros_counter += 4;} //hex 0 consists of 4 0 bits, and so on.
+				if     (garbage_byte == '0') {zeros_counter += 4;} //..........hex 0 consists of 4 0 bits, and so on.
 				else if(garbage_byte == '1') {zeros_counter += 3;}
 				else if(garbage_byte == '2') {zeros_counter += 3;}
 				else if(garbage_byte == '3') {zeros_counter += 2;}
@@ -681,7 +681,7 @@ int main()
 			if(zeros_counter == 256) {break;}
 			
 			out_stream.open("new_number_and_message", ios::app);
-			out_stream << 0; //# of zeros appended is # of tries to find the distributed hash.
+			out_stream << 0; //..........# of zeros appended is # of tries to find the distributed hash.
 			out_stream.close();
 		}
 		
@@ -726,13 +726,13 @@ int main()
 		out_stream.open("Authorship.public");
 		out_stream << "Authorship.public v7.0.0=\r\n\r\n"; //29-byte header must be. Use "\r\n" for all returns (for max compatibility.)
 		for(int a = 0; a < 512; a++)
-		{	//Writes function.
+		{	//..........Writes function.
 			for(int b = 0; b < 50; b++)
 			{	out_stream.put(old_functions[old_functions_read_bookmark]);
 				old_functions_read_bookmark++;
 			}
 			
-			///Writes key if b[] == 1.
+			///..........Writes key if b[] == 1.
 			if(b[a] == 1)
 			{	out_stream.put(' ');
 				for(int b = 0; b < 1000; b++)
@@ -834,19 +834,19 @@ int main()
 		if(existence_of_substance_in_file_Authorship_public == false) {cout << "\nAuthorship.public is empty.\n"; return 0;}
 		
 		//Loads file Authorship.public and places functions and keys in different batches.
-		char functions[ 25600]; //512 50-character functions.
-		char keys     [256000]; //256,000 = (256 of 512 present keys * 1,000 characters in length).
+		char functions[ 25600]; //..........512 50-character functions.
+		char keys     [256000]; //..........256,000 = (256 of 512 present keys * 1,000 characters in length).
 		int functions_write_bookmark = 0;
 		int keys_write_bookmark = 0;
-		bool b[512] = {0}; //b for binary, logs presence and absence of keys.
+		bool b[512] = {0}; //..........b for binary, logs presence and absence of keys.
 		
 		in_stream.open("Authorship.public");
 		bool presence_of_13 = false;
 		bool presence_of_10 = false;
 		bool presence_of_13_and_10 = false;
-		char temp_file_byte; for(int a = 0; a < 25; a++) {in_stream.get(temp_file_byte);} //Skips 29-byte header (29 if \r\n present, tests for it now.)
+		char temp_file_byte; for(int a = 0; a < 25; a++) {in_stream.get(temp_file_byte);} //..........Skips 29-byte header (29 if \r\n present, tests for it now.)
 		
-		for(int a = 0; a < 2; a++) //Grabs two bytes after the first equals sign in the text.
+		for(int a = 0; a < 2; a++) //..........Grabs two bytes after the first equals sign in the text.
 		{	in_stream.get(temp_file_byte);
 			if(temp_file_byte == '\r') {presence_of_13 = true;}
 			if(temp_file_byte == '\n') {presence_of_10 = true;}
@@ -857,7 +857,7 @@ int main()
 		
 		if((presence_of_13 == true)
 		&& (presence_of_10 == true))
-		{	for(int a = 0; a < 2; a++) //Grabs two bytes after the first "\r\n".
+		{	for(int a = 0; a < 2; a++) //..........Grabs two bytes after the first "\r\n".
 			{	in_stream.get(temp_file_byte);
 				if(temp_file_byte == '\r') {presence_of_13 = true;}
 				if(temp_file_byte == '\n') {presence_of_10 = true;}
@@ -868,27 +868,27 @@ int main()
 			else {in_stream.close(); cout << "\n\nAuthorship.public header is corrupted.\n\n"; return 0;}
 		}
 		
-		for(int a = 0; a < 512; a++) //Grabbing 768 items (512 functions + 256 keys.)
-		{	//Gets function.
+		for(int a = 0; a < 512; a++) //..........Grabbing 768 items (512 functions + 256 keys.)
+		{	//..........Gets function.
 			for(int b = 0; b < 50; b++)
 			{	in_stream.get(functions[functions_write_bookmark]);
 				functions_write_bookmark++;
 			}
 			
-			//Gets key if present.
-			in_stream.get(temp_file_byte); //Checks what's after the function.
+			//..........Gets key if present.
+			in_stream.get(temp_file_byte); //..........Checks what's after the function.
 			if(temp_file_byte == ' ')
-			{	b[a] = 1; //1 = key present.
+			{	b[a] = 1; //..........1 = key present.
 				for(int c = 0; c < 1000; c++)
 				{	in_stream.get(keys[keys_write_bookmark]);
 					keys_write_bookmark++;
 				}
 				
-				if(presence_of_13_and_10 == true) {in_stream.get(temp_file_byte);} //Skips '\r'.
-				in_stream.get(temp_file_byte); //Skips '\n'.
+				if(presence_of_13_and_10 == true) {in_stream.get(temp_file_byte);} //..........Skips '\r'.
+				in_stream.get(temp_file_byte); //..........Skips '\n'.
 			}
 			else
-			{	if(presence_of_13_and_10 == true) in_stream.get(temp_file_byte); //Skips '\n' from the "\r\n" after function.
+			{	if(presence_of_13_and_10 == true) in_stream.get(temp_file_byte); //..........Skips '\n' from the "\r\n" after function.
 			}
 		}
 		in_stream.close();
@@ -909,7 +909,7 @@ int main()
 		char garbage_byte;
 		
 		in_stream.open("temp_512");
-		for(int a = 0; a < 128; a++) {in_stream.get(garbage_byte); number_on_file[a] = garbage_byte;} //Loads new #.
+		for(int a = 0; a < 128; a++) {in_stream.get(garbage_byte); number_on_file[a] = garbage_byte;} //..........Loads new #.
 		in_stream.close();
 		
 		in_stream.open("Authorship.number");
@@ -924,10 +924,10 @@ int main()
 		in_stream.close();
 		
 		//Generates additional seeds from keys[] for additional transformation of actual_key[] before decryption.
-		long long secondary_seeds[25600] = {0}; //Assembles 100 (mostly 11-digit) seeds per key, from each of the 256 1,000-character keys.
+		long long secondary_seeds[25600] = {0}; //..........Assembles 100 (mostly 11-digit) seeds per key, from each of the 256 1,000-character keys.
 		int keys_read_bookmark = 0;
 		int secondary_seeds_write_bookmark = 0;
-		for(int a = 0; a < 25600; a++) //25,600 comes from 10 contiguous key characters being scraped at once, 25,600 times.
+		for(int a = 0; a < 25600; a++) //..........25,600 comes from 10 contiguous key characters being scraped at once, 25,600 times.
 		{	for(int b = 0; b < 10; b++)
 			{	secondary_seeds[secondary_seeds_write_bookmark] *= 10;
 				secondary_seeds[secondary_seeds_write_bookmark] += keys[keys_read_bookmark + b];
@@ -942,18 +942,18 @@ int main()
 		int write_back_actual_key_bookmark = 0;
 		int secondary_seeds_read_bookmark  = 0;
 		unsigned char actual_key[50] = {0};
-		for(int a = 0; a < 256; a++) //Generates random numbers in array actual_key[].
-		{	for(int b = 0; b < 1000; b++) //Constructively applies randomness based on keys[] (used as seeds, 1,000 items per actual_key[].)
+		for(int a = 0; a < 256; a++) //..........Generates random numbers in array actual_key[].
+		{	for(int b = 0; b < 1000; b++) //..........Constructively applies randomness based on keys[] (used as seeds, 1,000 items per actual_key[].)
 			{	srand(keys[keys_read_bookmark]);
 				
 				if((keys[keys_read_bookmark] % 2) == 0)
-				{	for(int c = 0; c < 50; c++) //Fills left to right based on seeds.
+				{	for(int c = 0; c < 50; c++) //..........Fills left to right based on seeds.
 					{	actual_key[c] += (rand() % 95);
 						actual_key[c] %= 95;
 					}
 				}
 				else
-				{	for(int c = 49; c >= 0; c--) //Fills right to left based on seeds.
+				{	for(int c = 49; c >= 0; c--) //..........Fills right to left based on seeds.
 					{	actual_key[c] += (rand() % 95);
 						actual_key[c] %= 95;
 					}
@@ -962,18 +962,18 @@ int main()
 				keys_read_bookmark++;
 			}
 			
-			//Further transforms actual_key[] based on secondary_seeds[].
-			for(int b = 0; b < 100; b++) //Constructively applies randomness based on secondary_seeds[] (used as seeds, 100 11-digit integer per actual_key[].)
+			//..........Further transforms actual_key[] based on secondary_seeds[].
+			for(int b = 0; b < 100; b++) //..........Constructively applies randomness based on secondary_seeds[] (used as seeds, 100 11-digit integer per actual_key[].)
 			{	srand(secondary_seeds[secondary_seeds_read_bookmark]);
 				
 				if((secondary_seeds[secondary_seeds_read_bookmark] % 2) == 0)
-				{	for(int c = 0; c < 50; c++) //Fills left to right based on SECONDARY seeds.
+				{	for(int c = 0; c < 50; c++) //..........Fills left to right based on SECONDARY seeds.
 					{	actual_key[c] += (rand() % 95);
 						actual_key[c] %= 95;
 					}
 				}
 				else
-				{	for(int c = 49; c >= 0; c--) //Fills right to left based on SECONDARY seeds.
+				{	for(int c = 49; c >= 0; c--) //..........Fills right to left based on SECONDARY seeds.
 					{	actual_key[c] += (rand() % 95);
 						actual_key[c] %= 95;
 					}
@@ -982,7 +982,7 @@ int main()
 				secondary_seeds_read_bookmark++;
 			}
 			
-			//Layers encryption by again transforming actual_key[] using sha256sum AND sha512sum of key.
+			//..........Layers encryption by again transforming actual_key[] using sha256sum AND sha512sum of key.
 			out_stream.open("temp");
 			keys_read_bookmark -= 1000;
 			for(int b = 0; b < 1000; b++) {out_stream.put(keys[keys_read_bookmark + b]);}
@@ -1008,13 +1008,13 @@ int main()
 			}
 			in_stream.close();
 			
-			//Writes the result back to keys[]. Only in Authorship option 3, the first 28,000 elements of keys[] is reused for temporary write-back of actual_key[].
+			//..........Writes the result back to keys[]. Only in Authorship option 3, the first 28,000 elements of keys[] is reused for temporary write-back of actual_key[].
 			for(int d = 0; d < 50; d++)
 			{	keys[write_back_actual_key_bookmark] = actual_key[d];
 				write_back_actual_key_bookmark++;
 			}
 			
-			//Resetting actual key. If not reset (in option 3) then string depends on keys not present.
+			//..........Resetting actual key. If not reset (in option 3) then string depends on keys not present.
 			for(int a = 0; a < 50; a++) {actual_key[a] = 0;}
 		}
 		
@@ -1037,7 +1037,7 @@ int main()
 				{	if(keys[keys_read_bookmark] <= functions[functions_read_write_bookmark])
 					{	functions[functions_read_write_bookmark] = (functions[functions_read_write_bookmark] - keys[keys_read_bookmark]);
 						
-						//Checks if extracted plaintext is one digit. Never exceeds 99,999 upon later reconstruction from 5 elements.
+						//..........Checks if extracted plaintext is one digit. Never exceeds 99,999 upon later reconstruction from 5 elements.
 						if(functions[functions_read_write_bookmark] > 9)
 						{	cout << "\nFailed! Plaintext properties don't satisfy search priorities.\n";
 							return 0;
@@ -1046,7 +1046,7 @@ int main()
 					else
 					{	functions[functions_read_write_bookmark] = ((95 - keys[keys_read_bookmark]) + functions[functions_read_write_bookmark]);
 						
-						//Checks if extracted plaintext is one digit. Never exceeds 99,999 upon later reconstruction from 5 elements.
+						//..........Checks if extracted plaintext is one digit. Never exceeds 99,999 upon later reconstruction from 5 elements.
 						if(functions[functions_read_write_bookmark] > 9)
 						{	cout << "\nFailed! Plaintext properties don't satisfy search priorities.\n";
 							return 0;
@@ -1068,18 +1068,18 @@ int main()
 		
 		//Checks if solved functions contain 10 unspecified 5-digit contiguous primes.
 		//This means solutions are not mathematically inherent to a function hence no reversal shortcuts.
-		bool sieve[100000] = {1, 1}; //Boolean sieve of Eratosthenes. Zeros are mapped to prime elements.
-		for(int prime = 2; prime < 317; prime++) //317 is sqrt(100,000)
+		bool sieve[100000] = {1, 1}; //..........Boolean sieve of Eratosthenes. Zeros are mapped to prime elements.
+		for(int prime = 2; prime < 317; prime++) //..........317 is sqrt(100,000)
 		{	for(int a = prime + prime; a < 100000; a += prime) {sieve[a] = 1;}
 		}
 		
 		int functions_read_bookmark = 0;
 		int search_priority_satisfaction = false;
 		int solved_counter = 0;
-		for(int a = 0; a < 512; a++) //10 5-digit primes per function, 560 functions solved.
+		for(int a = 0; a < 512; a++) //..........10 5-digit primes per function, 560 functions solved.
 		{	if(b[a] == 1)
 			{	for(int b = 0; b < 10; b++)
-				{	//Unloads 5 array elements to make one integer.
+				{	//..........Unloads 5 array elements to make one integer.
 					int five_digit_prime;
 					five_digit_prime  = functions[functions_read_bookmark    ]; five_digit_prime *= 10;
 					five_digit_prime += functions[functions_read_bookmark + 1]; five_digit_prime *= 10;
@@ -1087,7 +1087,7 @@ int main()
 					five_digit_prime += functions[functions_read_bookmark + 3]; five_digit_prime *= 10;
 					five_digit_prime += functions[functions_read_bookmark + 4];
 					
-					//Tests for primality.
+					//..........Tests for primality.
 					if((five_digit_prime < 10007)
 					|| (sieve[five_digit_prime] != 0))
 					{	cout << "\nFailed! Plaintext properties don't satisfy search priorities.\n";
@@ -1107,7 +1107,7 @@ int main()
 				//###################################################
 			}
 			
-			search_priority_satisfaction++; //Must run 1,008 times.
+			search_priority_satisfaction++; //..........Must run 1,008 times.
 		}
 		
 		if((search_priority_satisfaction != 512) || (solved_counter != 256))
@@ -1151,7 +1151,7 @@ int main()
 		in_stream.open("Authorship.public");
 		out_stream.open("temp_extracted");
 		in_stream.get(garbage_byte);
-		for(; garbage_byte != -120;) {in_stream.get(garbage_byte);} //Skips until new #.
+		for(; garbage_byte != -120;) {in_stream.get(garbage_byte);} //..........Skips until new #.
 		for(; in_stream.eof() == false;)
 		{	in_stream.get(garbage_byte);
 			if((garbage_byte == '\r') || (garbage_byte == '\n')) {break;}
@@ -1189,8 +1189,7 @@ int main()
 		
 		//Creates file for message.
 		if(existence_of_message == true)
-		{	//138
-			in_stream.open("temp_extracted");
+		{	in_stream.open("temp_extracted");
 			out_stream.open("MESSAGE");
 			for(int a = 0; a < 138; a++) {in_stream.get(garbage_byte);}
 			for(; in_stream.eof() == false;)
