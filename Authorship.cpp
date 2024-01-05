@@ -1,6 +1,6 @@
-/// Authorship - infinite data authentication independent of encryption type or symmetry.
-///              Get a number only you can modify--which anyone can verify.
-/// Nikolay Valentinovich Repnitskiy - License: WTFPLv2+ (wtfpl.net)
+/// Authorship - infinite data authentication independent of
+///              encryption type or symmetry. Get a number
+///              only you can modify--which anyone can verify.
 
 
 /* Version 7.0.0
