@@ -1,0 +1,214 @@
+Authorship
+
+
+
+Version 7.0.0   Tripple-layered encryption. Numbers are now 128 char (sha512sum)
+no back compat  User messages can now be 9,000 char. No more 5/9;  instead, half
+                of all functions must be decrypted--which ones doesn't matter so
+                representation is normal binary of hash hex. Now represents HASH
+                of new # & message! So the concatenated string of #+msg adjusted
+                until its hash is bit-distributed (so half func list is solved.)
+                Removed sector_accident_detection & bulk_verification_efficiency
+                & automation for group/oracle/contracts for minimalism.
+                This is an incredible efficiency and security gain.
+                Apr 20 2023
+
+Version 6.0.1   Independence from the \r\n fuckery of copy/paste and other OSes.
+                See characters 13 and 10 in  RawVisual.cpp  in repo:  RawVisual.
+                Fully-compatible with previous, upgrade at will.
+                Jun 27 2021
+
+Version 6.0.0   Smart contracts and group authorization.   Fully compatible with
+                version 5.1. In fact,  you may remove options  4, 5, and 6  from
+                the source code.  Highly configure-able, free from entanglement.
+                Essentially an Authorship.private file is generated collectively
+                over three separate steps where it cannot be modified unless all
+                involved governors agree, and release their portion of the keys.
+                Meanwhile, the number of such functions could have received some
+                value coming from insurance sellers--value is held by governors,
+                then re-allocated based on their collective decision.   Just set
+                testing_mode to true and it's a smooth chronological experience.
+                If testing, run option  4  twice or so--to ensure a sum of  112.
+                For example, first time you are governor number 1 with 12 symbol
+                responsibilities and the second time you are governor number two
+                with 100 symbol responsibilities. Then continue on to option  5.
+                Jun 23 2021
+
+Version 5.1.0   Added over-kill security--and 2s run-time.  Each actual_key[] is
+                further transformed using 100  ~11-digit secondary_seeds[] which
+                are assembled from the 1,008 strings of 1,000 char seeds (keys.)
+             -> MAJOR CHANGE, files not compatible with previous.
+                Mar 16 2021
+
+Version 5.0.0   Built AuthorshipFemto--the tiny fast version and it was good, so
+                Authorship is now a bulky version of AuthorshipFemto. This means
+                complete redesign from the ground up.Both produce a 32-character
+                number but Authorship takes 5 seconds to run.    AuthorshipFemto
+                on the other hand, less than half a second--excellent  for  high
+                traffic networks and IOT devices. Here keys are 1,000 characters
+                meaning 10^1977 possible key guesses per individual key.The user
+                message has gone down to 80 characters--enough for the sha256sum
+                of 64 characters pointing to text files uploaded separately. And
+                you can still paste to & download from pastebins like stikked.ch
+                as a way to publish your  Authorship.public  files (613kB here.)
+                Authorship.private files are 1MB now, not 238!
+                Mar 14 2021
+
+Version 4.5.0   Replaced 6 digits: prevents value 100,000 from slipping in while
+                adjusting identifying properties for primality on 5-digit primes
+                which was discovered while building AuthorshipFemto.  (All users
+                are expected to have published multiple numbers for safety.) All
+                files here are compatible with Authorship version 4.4.
+                Mar 8 2021
+
+Version 4.4.0   ALL OK NOW!  Milking the shit out of deductive lossy compression
+                beginning with version 4.3.   Hash (deductive lossy compression)
+                now scrapes  ALL  hot zone digits and only hot zone digits! It's
+                infrastructure remains for future adjustment for cool zone hash.
+                Now if you refer to documentation page 5#6, transformed sub-keys
+                have always been predeterminate based on the item "tranformation
+                determinant" but ciphertext had areas where the hash ignores the
+                digits--allowing the freedom to change them which adjusts primes
+                to the  liking of  search  priorities.  No more!  Both "key" and
+                "ciphertext" are now predeterminate    (hash enforces ciphertext
+                while transformation enforces key.) THIS MEANS that  "plaintext"
+                in then  necessarily  predeterminate as well.  The difficulty is
+                coming  up with--as time-consuming as it is--functional  sub-key
+                AND transformation  determinants  who  produce  ~535  contiguous
+                primes of lengths 1-5 PER HOT ZONE (3 hot zones per function and
+                sub-key transformation continues all the way through.) Attackers
+                must discard only the key in its entirety then build a new one--
+                requiring blind  modifications  to  the  first  sub-key  and the
+                transformation determinant. "Blind" is due to the  unpredictable
+                outcome of sub-key transformation. A 6-year journey not wasted.
+                Feb 23 2021
+                ^^^^^^^^^^^^^^^^IMMEDIATE JOINED EFFORT WITH 4.3^^^^^^^^^^^^^^^^
+Version 4.3.0   Fixed the issue of identifying  properties being too  narrow and
+                not intertwined and interdependent:reduced chances of generating
+                1 and 2-digit primes, reduced  tolerance of the following array:
+                prime_lengths_in_order_SUBn[] where n is 2, 4, and 6 (reduced to
+                570, was 1,000. This prevents filling with too many short primes
+                where the hash function does not interact with digit.) Tolerance
+                of the number of primes in a  sub-function upon  verification is
+                now 500 to 570.  The functions are now well-scraped  by the hash
+                (every third)  increasing the number of hash-digits from 495  to
+                4,002 per 12,000-digit multi-way function.Cool zones are scraped
+                as well. Those digits may contain other user data;  you might be
+                asked to retain the Authorship.public file for some event  which
+                leads to other events in the future.  This allows file integrity
+                where events cannot be verified if some  file host or  censoring
+                router interferes with these digits.   New limits and tolerances
+                means your RNG bust be top notch like it is here or verification
+                will catch any out-of-bounds prime_lengths_in_order_SUBn[].  The
+                idea behind these contiguous identifying  properties is  that at
+                some point you'll  need to  backtrack  and reduce  the length of
+                of your prime cluster and this tree-search takes time unless you
+                already have solution ingredients.
+                Feb 21 2021
+
+Version 4.2.1   Added important note in src- super-flexibility for non-technical
+                users who might not grasp the god-mode in function hot-swapping.
+                You can build an Authorship version entirely reliant on  riddles
+                and poetry of any subject!!! if you wish!!! And  even  encrypted
+                files of arbitrary size! Reassigning 4 < n < 10 by subtracting 4
+                instead of +16 then mod10.  (Should have been obvious long ago.)
+                (Slight efficiency improvement, no difference in functionality.)
+                No major difference; UPGRADES TO 4.2.1 WILL NOT BREAK v4+ FILES!
+                All users should use version 4.2+ for maximum storage safety.
+                Feb 15 2021
+
+Version 4.2.0   Detects bad sectors on HDD  (writes from RAM, reads it back, and
+                compares it to what's in the RAM. (ACTIVE FOR ALL FILES!)  Users
+                cannot continue if bad storage device--this  is  like  automatic
+                verification but better, it's bit-for-bit!   Program suggests to
+                user if bad HDD: write a few GB  of  dummy-files  to consume the
+                bad HDD areas, then try again. Now aggressive status of what the
+                program is doing so users don't think it's hung.
+                Feb 11 2021
+
+Version 4.1.0   Safety & instructions improvements. Added how to make executable
+                using g++    Added file checking for extra safety. Documentation
+                PDF file now includes the two additional uses of interest: voter
+                fraud prevention, animal theft management,  and group & military
+                authorization as discussed in  fair trade.  Unfortunately, there
+                is no space to  elaborate on these points but I describe them on
+                my website. Readers can conclude without that. Logs now align to
+                80th column as in program descriptions (old logs are never to be
+                modified.) 80 is width of default terminal, if curious about it.
+                Important note: even for small changes & extremely tiny changes,
+                there will be a version-up so auditors can know!!! It is already
+                an obligation to upload src to  Coliru  for archiving snapshots,
+                restricting myself from modifying things, & clarity in auditing.
+                Jan 28 2021
+
+Version 4.0.0   Added to the key transformation process (big deal and security update.)
+                Minor changes and re-structuring. Integer jumps in version numbers means big
+                improvements and effectiveness while fractional jumps singify non-vital things.
+                More RAM overwriting. Somewhere in my timeline there will be an Authorship
+                version smaller, faster, efficient, and without compromising my first core
+                value. The best part is, I don't ever have to think about backward compatibility
+                for Authorship or anything related to it because of something I call super-flexibility.
+                You are never locked in to the system or its functions. See documentation page 7, number 7.
+                Run-time for generating Authorship.public files has been raised from 5 to 20 minutes due to
+                the extensive addition in sub-key transformation. Additionally, verification time has been
+                raised from a handful of seconds to 5 minutes, also due to the enhanced key transformation
+                because what is done in key gen is mirrored in verif. Fixed instructions, explanations, safety.
+                Jan 26 2021
+
+Version 3.3.0   Replaced certain tabs with spaces to align code where formatting is problematic
+                (github and pastebin have problems with this while Coliru shines bright! Why?)
+                Minor structure changes.
+                Dec 7 2020
+
+Version 3.2.0   Code-aesthetics, extra detail on "fail message" output.
+                Documentation file lightly rewritten to a generic style and should not
+                require a version-change for every time Authorship_n.cpp is improved.
+                Nov 13 2020
+
+Version 3.1.0   Non-programmer access to fair trade (program will generate your new number,
+                pause, and display it in case it's needed for trade or if some verifying party
+                had lost your number or began verification then and there.)
+                Nov 7 2020
+
+Version 3.0.0   Unsolved functions in Authorship.public files are not published,
+                while publishing only the digits used for deductive lossy compression.
+                Authorship.public files are reduced from ~207MB down to ~138MB (~69MB saved.)
+                Both versions 2 & 3 force attackers to search for functional ciphertext which
+                must contain 495 predetermined hash-digits dispersed across the function.
+                Nov 2 2020
+
+Version 2.0.0   Unsolved functions in Authorship.public files are overwritten with zeros,
+                leaving out only the digits used for deductive lossy compression.
+                Nov 1 2020
+
+Version 1.0.0   Authorship.cpp was ready some time after making new electronified documentation.
+                Aug 28 2020
+
+Before that     After quite a search and a hundred cryptillion scribbles, I had given up and settled on
+                the finite one-time precomputed chain from before. And after having thought about such
+                a structure for so long, I began to simulate these permanent memories quite efficiently.
+                It was exactly then that I realized--these chains were necessary in a forwards-backwards
+                sequential multitude and that missing information is information. Some functions within a
+                chain, if left unsolved, represent a binary value where solved functions are the only other
+                symbol. Eventually, the chaining was replaced with a sort of cryptographic hash I call
+                "deductive lossy compression." My early CSC was reinvented and I went through 14 documentation
+                versions. That's right, I build comprehensive documentation far before writing any code. Core
+                functionality of CSC discovered: December 2019 (infinity and super-flexibility in cryptographic
+                evidence.) Then, shortly after re-discovering the One-time pad, I had constructed P!=NP proof on
+                Friday, February 21 2020 by stepping down from the all-way function--narrowing the number of
+                plausible keys via key reuse or transformation. I call these multi-way functions. Some time thereafter,
+                I realized how multi-way functions can be further curated for publicly-verifiable authorized-only
+                cryptosystems. And so I abandoned CSC and built Authorship instead--for the computational difficulty,
+                replacing the semiprime with multi-way functions having expected identifying properties distributed
+                publicly among any verifying party. Use as cryptocurrency was an accidental discovery made while writing
+                CSC documentation (this system is meant only to be a compromise-evident device in the form of glass vaults.)
+                Fair trade was also an accidental discovery made while writing CSC documentation as I flipped through
+                mathematician Douglas Hofstadter's book looking for problems to solve--in this case--the Prisoner's Dilemma.
+
+Origin          Six years prior, a certain someone had failed to prove they weren't compromised by the government
+                as the public demanded source and data authentication near the US elections of 2016. And thus I
+                began CSC - Cryptographic Semiprime Coupling. At the time, you'd have to precompute a finite chain,
+                publish the end-link, and reveal one link at a time last-to-first as you perform authentication events.
+                Unfortunately, this meant you cannot insert data not yet fabricated, and you cannot yield authentication
+                events indefinitely. Eventually I had written a really short paper on this principle outlining a quirk
+                or two - Primality-Adjusting Branded Strings. That felt limiting so I kept going.
