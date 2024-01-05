@@ -27,7 +27,7 @@ disposable public files so information source can be trusted.
 **Authentication...** You can't prove that you created your content, or that it's not fake or false.
 But you can prove it's coming from you, not impersonation. And you're NEVER locked-in to any type
 or paradigm of encryption.
-Here, Authorship.cpp uses a type of ciphertext called multi-way or step-down functions which have [no reversal shortcuts.](https://github.com/compromise-evident/Authorship/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf)
+Here, Authorship.cpp uses a type of ciphertext called multi-way or step-down functions which have [no reversal shortcuts.](https://github.com/compromise-evident/Authorship/blob/main/Other/Decryption_difficulty_proof.pdf)
 
 <br>
 <br>
