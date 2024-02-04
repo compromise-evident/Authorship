@@ -1,10 +1,4 @@
 <p align="center">
-  <img src="https://github.com/compromise-evident/Authorship/blob/main/Other/Authorship_icon_3ea83caea4019343952d48af9be1a4f8db70a964c16913ea5ebbdbb0d42d3c76.png" width="205">
-</p>
-
-### (6,570-bit layered encryption, 512-bit number)
-
-<p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Terminal_52078c61f8d6016ab6f26ab84eabd57e34eeb30595e724c4c475ea3580ed14d8.png">
 </p>
 
