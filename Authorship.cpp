@@ -50,13 +50,11 @@ int main()
 	/////////////////////////////////////  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 	//////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 	
-	cout << "\n(Authorship)\n\n"
+	cout << "\n(1) Create   (get a number which others save.)"
+	     << "\n(2) Modify   (your private file makes public file which others verify.)"
+	     << "\n(3) Verify   (their public file modifies their number file which you saved.)"
 	
-	     << "(1) Create - get a number only you can modify--which anyone can verify.\n"
-	     << "(2) Modify - needs Authorship.private file to make Authorship.public file.\n"
-	     << "(3) Verify - needs both their Authorship.public and Authorship.number files.\n\n"
-	
-	     << "Enter option: ";
+	     << "\n\nOption: ";
 	
 	int user_option; cin >> user_option;
 	ifstream in_stream;
