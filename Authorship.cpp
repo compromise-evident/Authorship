@@ -51,7 +51,7 @@ int main()
 	//////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 	
 	cout << "\n(1) Create   (get a number which others save.)"
-	     << "\n(2) Modify   (your private file makes public file which others verify.)"
+	     << "\n(2) Modify   (your private file renewed, makes public file which others verify.)"
 	     << "\n(3) Verify   (their public file modifies their number file which you saved.)"
 	
 	     << "\n\nOption: ";
