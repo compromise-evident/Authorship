@@ -1,7 +1,7 @@
 Version 8 coming soon, to be remastered with rolling-code (with RAM_Unix_time_supplement = true)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Terminal_909f18d1ca1f998dcd95f1fefec4e46d.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Terminal_7c13bf7aa7b32cb5aae2422bb941f0a8.png">
 </p>
 
 [No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Authorship/blob/main/Other/Decryption_difficulty_proof.pdf)
