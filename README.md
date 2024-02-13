@@ -10,7 +10,7 @@ Version 8 coming soon, to be remastered with rolling-code (with RAM_Unix_time_su
 # How it works
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_documentation_672fbbd0bc2afe93f3cdea4e0ee7b3d6.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_documentation_0a878afe498b75626e44128422076c2c.png">
 </p>
 
 <br>
