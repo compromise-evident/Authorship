@@ -154,12 +154,3 @@ evidence--Julian Assange and Edward Snowden--this is for you!
     new main number awaits future visitors who were forced to verify only once so far.
     Those without access to the public file for this main event may ask the service
     to modify a slower number--as done in the previous point.
-
-<br>
-<br>
-
-## Start your own manual crypto without programming or blockchains
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Start-your-own-manual-crypto_f5b4948d788e6290077eeff86f0f4c4fafbd703959938f49b75dccb1a02b9047.png">
-</p>
