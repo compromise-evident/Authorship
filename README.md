@@ -44,7 +44,7 @@ And this "presence and absence of keys" actually represents a *hash* of your new
 (Your new number & message is automatically appended to until its hash is bit-distributed, just so half of each list is solved.)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_documentation_8ed9aea45277532f89682e82b82ddb85a8d16aed6e46ce4eade5fe0cb4e84e00.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_documentation_db2669dc59aafe398fafb8e5ca804d8c.png">
 </p>
 
 I discovered Authorship December 2019, which would not have been possible without
