@@ -16,7 +16,7 @@ Version 8 coming soon, to be remastered with rolling-code (with RAM_Unix_time_su
 <br>
 <br>
 
-# Uses & features
+# For
 
  1. **Proof of life**
  2. **User authentication**
