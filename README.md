@@ -10,13 +10,8 @@ Version 8 coming soon, to be remastered with rolling-code (with RAM_Unix_time_su
 # How it works
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_documentation_45c7125cac622a5d31f85f9cc1f25144.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_documentation_d8f4f4261cdb9f02aff7fe62eb916a29.png">
 </p>
-
-I discovered Authorship December 2019, which would not have been possible without
-direct inspiration from my personal heroes who sacrificed their freedom and
-demonstrated beautifully the need for endless cryptographic
-evidence--Julian Assange and Edward Snowden--this is for you!
 
 <br>
 <br>
