@@ -870,14 +870,14 @@ int main()
 	{	
 		/* SUMMARY
 		-------------
-		* Takes hash of ciphertext in file "public" and compares it to the number.
+		* Takes hash of ciphertext in file "public" and compares it to the number. Fails & exits on mismatch.
 		* Loads the 512 ciphertext to RAM.
 		* Loads the 256 keys to RAM.
 		* Loads the 512 presence & absence indication to RAM.
 		* Writes user message & number to file.
 		* Takes sha512sum of user message & number file.
-		* Decrypts ciphertext to which keys are present.
-		* Compares this presence & absence to the bits of the hash of "user message & number file".
+		* Decrypts ciphertext to which keys are present. Fails & exits if bad keys.
+		* Compares this presence & absence to the bits of the hash of "user message & number file". Fails & exits on mismatch.
 		* If compares, saves message from "user message & number file".
 		* If compares, overwrites file "number" with the number in "user message & number file". */
 		
