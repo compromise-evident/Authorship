@@ -1,50 +1,37 @@
-Authorship
+
+Create - makes a list of 512 encrypted items.
+         Its sha512sum hash is your number.
+         
+Modify - creates your new number.
+         Your old number is then
+         forced to describe it;
+         
+         Creates public file with
+         previous encrypted items
+         as described by old number.
+         
+         Only half their keys are
+         included. Key "presence
+         and absence" represents
+         your new number & message.
 
 
 
-Create - generates a list of 512 encrypted items.
-         Its sha512sum hash is your Authorship
-         number. Share this number publicly.
+Public file is 6 lines of text:
+1. 512 ciphertext  (1,000 char each; 33 to 126.)
+2. 256 keys        (1,000 digits each.)
+3. 512 indicators  (1 bit each, tells which ciphertext to decrypt.)
+4. Their message   (Authenticated; sha512sum hash of last 3 lines is actually what's represented by key presence & absence.)
+5. Their new #     (Authenticated; sha512sum hash of last 3 lines is actually what's represented by key presence & absence.)
+6. ~15 zeros
 
-Modify - generates your new number.
-         Creates a disposable .public file
-         containing all 512 PREVIOUS encrypted
-         items, and 256 keys to those items,
-         where key presence and absence
-         represents a bit-balanced sha512sum hash
-         of your NEW number and 9k-char message,
-         which are included in that .public file.
-         Publish that disposable .public file.
+Zeros in line 6 make the last 3
+lines produce a sha512sum hash
+with 256 0 bits and 256 1 bits.
 
-         (Bit-balanced hash means the string
-         that is your NEW # & message is appended
-         to, until its hash contains 256 0 bits
-         and 256 1 bits--averaging to ~15 zeros
-         appended as seen in .public file ends.)
-
-Verify - those with your first number receive
-         that .public file. They hash the
-         encrypted items. This hash must be
-         equal to your first number.
-
-         Those with your first number then test
-         the included 256 keys against the 512
-         encrypted items--decrypting only 256.
-
-         This binary order of "decrypted, no key"
-         represents a bit-balanced sha512sum hash
-         of your NEW number and 9k-char message,
-         (which are present in that .public file.)
-
-         Those with your first number then hash
-         the string that is your NEW number and
-         9k-char message. This hash must be equal
-         to the one represented in binary through
-         the presence and absence of keys.
-
-         Those with your first number then
-         overwrite your first number with
-         your NEW number, and read your
-         message if included.
-
-         Jan 5 2024
+Hence strictly 256 keys are used.
+Otherwise if you could use arbitrarily
+many keys, attackers could interject the
+publishing of your public file and withhold
+whichever keys allows "presence and absence"
+to represent their strings and not yours.)
