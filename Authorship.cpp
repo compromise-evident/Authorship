@@ -1,6 +1,6 @@
 /// Authorship - get a number only you can modify--which anyone                 Run it: "apt install g++ geany". Open this in Geany. Hit F9 once. F5 to run.
-///              can verify (infinite data authentication
-///              independent of encryption type or symmetry.)
+///              can verify. Include a 9k-char message. (Infinite data
+///              authentication independent of encryption type or symmetry.)
 
 
 // Version 8.0.0   +   rolling-code 3.1.0
