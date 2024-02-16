@@ -1,7 +1,5 @@
-Version 8 coming soon, to be remastered with rolling-code (with RAM_Unix_time_supplement = true)
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Terminal_7c13bf7aa7b32cb5aae2422bb941f0a8.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Terminal_b6e7d0b94e8652503f1473d66d8d3e5c.png">
 </p>
 
 <br>
