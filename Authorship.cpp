@@ -256,7 +256,7 @@ int main()
 					}
 					out_stream << actual_seeds[a];
 				}
-				out_stream << "\n\nSeeds are always supplemented with RAM garbage and Unix time.\n";
+				out_stream << "\n\nSeeds are always rolling and supplemented with RAM garbage and Unix time.\n";
 				out_stream.close();
 				
 				//..........Overwrites RAM of variable long long temp_overflow_for_randomness.
@@ -628,7 +628,7 @@ int main()
 				}
 				out_stream << actual_seeds[a];
 			}
-			out_stream << "\n\nSeeds are always supplemented with RAM garbage and Unix time.\n";
+			out_stream << "\n\nSeeds are always rolling and supplemented with RAM garbage and Unix time.\n";
 			out_stream.close();
 			
 			//..........Overwrites RAM of variable long long temp_overflow_for_randomness.
