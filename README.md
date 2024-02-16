@@ -82,6 +82,11 @@
     new main number awaits future visitors who were forced to verify only once so far.
     Those without access to the public file for this main event may ask the service
     to modify a slower number--as done in the previous point.)
+*   **And cryptocurrency:**
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Cryptocurrency.png">
+</p>
 
 <br>
 <br>
