@@ -29,8 +29,8 @@
     unless we can verify your
     number modification.)
 *   **Exposure is allowed**
-    (typically authentication--rolling-code or not--
-    relies on shared secrets; employers allow you to
+    (typically authentication--rolling-code or not--relies
+    on shared secrets; employers allow you to
     open doors only if that door accepts your
     private string of characters--matching what the
     door expects to see; The door is aware of a secret
