@@ -85,7 +85,7 @@
 *   **And cryptocurrency:**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Cryptocurrency.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Cryptocurrency_81045ad8faed316fba71a14666de0565.png">
 </p>
 
 <br>
