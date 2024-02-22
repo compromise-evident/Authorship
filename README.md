@@ -39,15 +39,11 @@
     can be displayed on the door and even made public.
     EVERYTHING you gave the door, and EVERYTHING the
     door contains, can be safely made public raw.)
-*   **Fair trade**
-    (cryptographic solution to the Prisoner's Dilemma.
-    Numbers can be given backup modification paths
-    just before trade. Fair trade devalues
-    the backups while defection devalues the trade.)
 *   **Group authorization**
     (numbers can be assembled using ciphertext from multiple users.)
 *   **Animal theft management**
-    (assign animal IDs to numbers, registrars should be able to
+    (animal biometric data can be assigned to numbers; If you can't modify the
+    number associated with your animal, it's not your animal. Authority registrars should be able to
     easily identify animals such as by imaging a cow's wrinkly nose.)
 *   **Voter fraud prevention**
     (you verify voters whom only registrars identify.)
