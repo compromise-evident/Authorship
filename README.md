@@ -89,5 +89,22 @@
 
 I discovered Authorship December 2019, which would not have been possible without
 direct inspiration from my personal heroes who sacrificed their freedom and
-demonstrated beautifully the need for publicly accessible AND comprehensible cryptographic
+demonstrated beautifully the need for endless cryptographic
 evidence--Julian Assange and Edward Snowden--this is for you!
+
+<br>
+<br>
+
+# Авторство
+
+Отримай номер який тільки ти міняєш, яке всякий провірє.
+Вставляй повідомлень 9kB.
+(Нескінченна автентифікація даних незалежно від типу чи симетрії шифрування.)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Terminal_Ukrainian_254f5a6cb571c2d5f9bf88807b82c96e.png">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_Ukrainian_fa464d223fea6cb96b674da18ef6cac7.png">
+</p>
