@@ -1,4 +1,6 @@
+<p align="center">
 <sup>[Українська](https://github.com/compromise-evident/Authorship?tab=readme-ov-file#%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0)</sup>
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Terminal_b6e7d0b94e8652503f1473d66d8d3e5c.png">
