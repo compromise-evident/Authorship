@@ -108,5 +108,5 @@ evidence--Julian Assange and Edward Snowden--this is for you!
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_Ukrainian_fa464d223fea6cb96b674da18ef6cac7.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_Ukrainian_b89cb562bcf89abc742ccc0ef8f0ccda.png">
 </p>
