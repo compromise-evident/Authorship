@@ -91,7 +91,7 @@
 
 I discovered Authorship December 2019, which would not have been possible without
 direct inspiration from my personal heroes who sacrificed their freedom and
-demonstrated beautifully the need for endless cryptographic
+demonstrated beautifully the need for publicly accessible AND comprehensible cryptographic
 evidence--Julian Assange and Edward Snowden--this is for you!
 
 <br>
