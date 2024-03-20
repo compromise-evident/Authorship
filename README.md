@@ -13,6 +13,14 @@
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_documentation_0a878afe498b75626e44128422076c2c.png">
 </p>
 
+You can't prove that you created your content, or that
+it's not fake or false. But you can prove it's coming
+from you--not impersonation. And you're NEVER locked-in
+to any type of encryption;
+New information is authenticated using the binary
+presence & absence of keys to lists of encrypted
+items (publicly verifiable, authorized-only.)
+
 <br>
 <br>
 
