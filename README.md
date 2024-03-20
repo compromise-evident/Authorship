@@ -19,7 +19,7 @@ from you--not impersonation. And you're NEVER locked-in
 to any type of encryption;
 Data is authenticated using the binary
 presence & absence of keys to lists of encrypted
-items (publicly verifiable yet authorized-only.)
+items (hence publicly verifiable yet authorized-only.)
 
 <br>
 <br>
