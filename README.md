@@ -17,7 +17,7 @@ You can't prove that you created your content, or that
 it's not fake or false. But you can prove it's coming
 from you--not impersonation. And you're NEVER locked-in
 to any type of encryption;
-New information is authenticated using the binary
+Data is authenticated using the binary
 presence & absence of keys to lists of encrypted
 items (publicly verifiable, authorized-only.)
 
