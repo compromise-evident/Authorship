@@ -45,7 +45,7 @@ items (hence publicly verifiable yet authorized-only.)
     private string of characters--matching what the
     door expects to see; The door is aware of a secret
     and must never expose it. But if instead the door
-    contained your number. that ever-changing number
+    contained your number, that ever-changing number
     can be displayed on the door and even made public.
     EVERYTHING you gave the door, and EVERYTHING the
     door contains, can be safely made public raw.)
