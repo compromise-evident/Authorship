@@ -26,6 +26,17 @@ items (hence publicly verifiable yet authorized-only.)
 
 # For
 
+*   **Exposure is allowed**
+    (typically authentication--rolling-code or not--relies
+    on shared secrets; employers allow you to
+    open doors only if that door accepts your
+    private string of characters--matching what the
+    door expects to see; The door is aware of a secret
+    and must never expose it. But if instead the door
+    contained your number, that ever-changing number
+    can be displayed on the door and even made public.
+    EVERYTHING you gave the door, and EVERYTHING the
+    door contains, can be safely made public raw.)
 *   **Compromise-evident device**
     (just as tamper-evident devices prove they've
     been tampered with, Authorship proves its user
@@ -38,17 +49,7 @@ items (hence publicly verifiable yet authorized-only.)
     trust words under your name
     unless we can verify your
     number modification.)
-*   **Exposure is allowed**
-    (typically authentication--rolling-code or not--relies
-    on shared secrets; employers allow you to
-    open doors only if that door accepts your
-    private string of characters--matching what the
-    door expects to see; The door is aware of a secret
-    and must never expose it. But if instead the door
-    contained your number, that ever-changing number
-    can be displayed on the door and even made public.
-    EVERYTHING you gave the door, and EVERYTHING the
-    door contains, can be safely made public raw.)
+*   **Canary update authentication**
 *   **Group authorization**
     (numbers can be assembled using ciphertext from multiple users.)
 *   **Animal theft management**
