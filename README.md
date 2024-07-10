@@ -110,7 +110,7 @@ evidence--Julian Assange and Edward Snowden--this is for you!
 
 Авторство - отримай номер який тільки ти міняєш, яке всякий провірє.
 Вставляй повідомлень 9kB.
-(Нескінченна автентифікація даних незалежно від типу чи симетрії шифрування.)
+(Нескінченна автентифікація даних незалежнa від типу чи симетрії шифрування.)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Terminal_Ukrainian_254f5a6cb571c2d5f9bf88807b82c96e.png">
