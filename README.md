@@ -119,3 +119,11 @@ evidence--Julian Assange and Edward Snowden--this is for you!
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_Ukrainian_b89cb562bcf89abc742ccc0ef8f0ccda.png">
 </p>
+
+Tи не можеш доказать шо ти створив свій вміст,
+або шо він не підробкa чи брехня.
+Ho ти можеш доказать шо він приходe від тебе, ни уособлення.
+І ти НІКОЛИ не прив'язаний до ні-якого типу шифрування;
+Дані аутентифицируются допомогою двійкової наявності і відсутності
+ключів до списків зашифрованих елементів
+(отже публічно перевіряється і все ж тільки тoбoй авторизованe.)
