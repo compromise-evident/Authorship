@@ -21,6 +21,27 @@ Data is authenticated using the binary
 presence & absence of keys to lists of encrypted
 items (hence publicly verifiable yet authorized-only.)
 
+Still don't get it?
+Let's say you published a list of encrypted items
+then became a target for exposing war crimes.
+And when I ask for proof of life, you publish
+one key until you're out of keys.
+I have to assume that new encrypted
+items under your name are impersonation.
+How would you have forced that list to represent
+a NEW list that's not pregenerated to finiteness?
+Authorship does just that;
+
+Instead of releasing a key,
+make a new list and release only half the keys to that old list.
+Now, as I look at your original list of encrypted items,
+I can cross out any that I can decrypt.
+And when I take a step back,
+a binary message appears; what's crossed out and left uncrossed
+represents ones and zeros not predetermined.
+This message can be anything at any time,
+even though it comes from something old and immutable.
+
 <br>
 <br>
 
