@@ -3,12 +3,10 @@
 ///              authentication independent of encryption type or symmetry.)
 
 
-// Version 8.0.0   +   rolling-code 3.1.0
-
+// Version 8.0.1   +   rolling-code 3.1.1
 #include <fstream>
 #include <iostream>
 using namespace std;
-
 int main()
 {	ifstream in_stream;
 	ofstream out_stream;
@@ -44,7 +42,7 @@ int main()
 		//Generates 512 keys--each 1,000 digits.
 		//The following verbatim from rolling-code.cpp, except user knobs, cout, renamed "RC_seeds", renamed "Code", extraction, out_stream, comments, absurd, mkdir.
 		{	long long code_length_in_thousands = 512;
-			bool RAM_Unix_time_supplement = true; //Set to true for codes of unique randomness, even with the same seeds file. DEFAULT = true.
+			bool Unix_time_supplement = true; //Set to true for codes of unique randomness, even with the same seeds file. DEFAULT = true.
 			
 			//Creates seeds file if missing.
 			const char seeds_file_name[50] = {"Personal/private/AS_seeds"};
@@ -184,23 +182,14 @@ int main()
 					actual_seeds[a] = (temp_overflow_for_randomness % 4294967296);
 				}
 				
-				/*..........Supplements actual_seeds[] for unique randomness. (100 10-digit values
-				            created from garbage RAM are added to the 100 10-digit actual_seeds[].)
-				            Even if all zeros as supplement, actual_seeds[] take the weight (seeds file.)
-				            Declare 100k or 1M unsigned int array; there will be ~628 garbage items at end.*/
-				if(RAM_Unix_time_supplement == true)
-				{	unsigned int RAM_garbage[100000];
-					temp_overflow_for_randomness = (time(0) % 4294967296); //..........Adds Unix time to actual_seeds[0]. (temp_overflow_for_randomness is never reset; each actual_seed[] is supplemented with incremental, and unique.)
-					
-					for(int a = 0; a < 100; a++) //..........Adds sum of every RAM_garbage[] to actual_seeds[0], then sum of every other to actual_seeds[1], then sum of every third to actual_seeds[2], and so on.
-					{	int skip = (a + 1);
-						for(int b = 0; b < 100000; b += skip) {temp_overflow_for_randomness += RAM_garbage[b]; temp_overflow_for_randomness %= 4294967296;}
-						
+				//..........Supplements all actual_seeds[] with randomness based on Unix time.
+				if(Unix_time_supplement == true)
+				{	srand(time(0));
+					for(int a = 0; a < 100; a++)
+					{	temp_overflow_for_randomness = (rand() % 4294967296);
 						temp_overflow_for_randomness += actual_seeds[a];
 						actual_seeds[a] = (temp_overflow_for_randomness % 4294967296);
 					}
-					
-					for(int a = 0; a < 100000; a++) {RAM_garbage[a] = 0; RAM_garbage[a] = 4294967295;} //..........Overwrites RAM of array unsigned int RAM_garbage[100000].
 				}
 				
 				//..........Generator house.
@@ -256,7 +245,7 @@ int main()
 					}
 					out_stream << actual_seeds[a];
 				}
-				out_stream << "\n\nSeeds are always rolling and supplemented with RAM garbage and Unix time.\n";
+				out_stream << "\n\nSeeds are always rolling and supplemented with Unix time.\n";
 				out_stream.close();
 				
 				//..........Overwrites RAM of variable long long temp_overflow_for_randomness.
@@ -521,7 +510,7 @@ int main()
 		//The following verbatim from rolling-code.cpp, except user knobs, cout, renamed "RC_seeds", renamed "Code", extraction, out_stream, comments, absurd, mkdir.
 		//Generates randomness.
 		{	long long code_length_in_thousands = 512;
-			bool RAM_Unix_time_supplement = true; //Set to true for codes of unique randomness, even with the same seeds file. DEFAULT = true.
+			bool Unix_time_supplement = true; //Set to true for codes of unique randomness, even with the same seeds file. DEFAULT = true.
 			char garbage_byte_for_seeds_file;
 			long long temp_overflow_for_randomness;
 			
@@ -556,23 +545,14 @@ int main()
 				actual_seeds[a] = (temp_overflow_for_randomness % 4294967296);
 			}
 			
-			/*..........Supplements actual_seeds[] for unique randomness. (100 10-digit values
-			            created from garbage RAM are added to the 100 10-digit actual_seeds[].)
-			            Even if all zeros as supplement, actual_seeds[] take the weight (seeds file.)
-			            Declare 100k or 1M unsigned int array; there will be ~628 garbage items at end.*/
-			if(RAM_Unix_time_supplement == true)
-			{	unsigned int RAM_garbage[100000];
-				temp_overflow_for_randomness = (time(0) % 4294967296); //..........Adds Unix time to actual_seeds[0]. (temp_overflow_for_randomness is never reset; each actual_seed[] is supplemented with incremental, and unique.)
-				
-				for(int a = 0; a < 100; a++) //..........Adds sum of every RAM_garbage[] to actual_seeds[0], then sum of every other to actual_seeds[1], then sum of every third to actual_seeds[2], and so on.
-				{	int skip = (a + 1);
-					for(int b = 0; b < 100000; b += skip) {temp_overflow_for_randomness += RAM_garbage[b]; temp_overflow_for_randomness %= 4294967296;}
-					
+			//..........Supplements all actual_seeds[] with randomness based on Unix time.
+			if(Unix_time_supplement == true)
+			{	srand(time(0));
+				for(int a = 0; a < 100; a++)
+				{	temp_overflow_for_randomness = (rand() % 4294967296);
 					temp_overflow_for_randomness += actual_seeds[a];
 					actual_seeds[a] = (temp_overflow_for_randomness % 4294967296);
 				}
-				
-				for(int a = 0; a < 100000; a++) {RAM_garbage[a] = 0; RAM_garbage[a] = 4294967295;} //..........Overwrites RAM of array unsigned int RAM_garbage[100000].
 			}
 			
 			//..........Generator house.
@@ -628,7 +608,7 @@ int main()
 				}
 				out_stream << actual_seeds[a];
 			}
-			out_stream << "\n\nSeeds are always rolling and supplemented with RAM garbage and Unix time.\n";
+			out_stream << "\n\nSeeds are always rolling and supplemented with Unix time.\n";
 			out_stream.close();
 			
 			//..........Overwrites RAM of variable long long temp_overflow_for_randomness.
