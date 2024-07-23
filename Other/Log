@@ -2,5 +2,9 @@ Authorship
 
 
 
+Version 8.0.1   rolling-code 3.1.1 integrated. RAM garbage no longer supplements
+                randomness due to RAM on Linux zeroing when allocated and freed.
+                Jul 22 2024
+
 Version 8.0.0   rolling-code.cpp integrated. Remastered ground-up.
                 Feb 15 2024
