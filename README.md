@@ -43,7 +43,7 @@ a binary message appears; what's crossed out and left uncrossed
 represents ones and zeros not predetermined.
 This message can be anything at any time,
 even though it comes from something old and immutable.
-And so you have it represent personal thoughts for this event,
+And so you make this message represent personal thoughts for this event,
 along with the hash of that new list
 (so as to build an authorized-only relationship with that new list.)
 
