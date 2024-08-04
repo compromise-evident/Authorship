@@ -59,7 +59,7 @@ along with the hash of that new list
     private string of characters--matching what the
     door expects to see; The door is aware of a secret
     and must never expose it. But if instead the door
-    contained your number, that ever-changing number
+    contained your Authorship number, that ever-changing number
     can be displayed on the door and even made public.
     EVERYTHING you gave the door, and EVERYTHING the
     door contains, can be safely made public raw.)
@@ -68,7 +68,7 @@ along with the hash of that new list
     been tampered with, Authorship proves its user
     has been compromised; Your adversary's goal is
     to take your life and continue modifying
-    your number--fooling us into thinking you're
+    your Authorship number--fooling us into thinking you're
     still there. But if your personal folder
     was protected, no one can modify on your behalf.
     This is how we'll know not to
@@ -77,9 +77,9 @@ along with the hash of that new list
     number modification.)
 *   **Canary update authentication**
 *   **Group authorization**
-    (numbers can be assembled using ciphertext from multiple users.)
+    (Authorship numbers can be assembled using ciphertext from multiple users.)
 *   **Animal theft management**
-    (animal biometric data can be assigned to numbers in a ledger; If you can't modify the
+    (animal biometric data can be assigned to Authorship numbers in a ledger; If you can't modify the
     number associated with your animal, it's not your animal. Authority registrars should be able to
     easily identify animals such as by imaging a cow's wrinkly nose.)
 *   **Voter fraud prevention**
@@ -87,14 +87,14 @@ along with the hash of that new list
 *   **Ownership proof**
     (assign item to Authorship number, modify it with their message to prove ownership.)
 *   **Cryptographer's acknowledgement**
-    (you may need to verify that your new number
+    (you may need to verify that your new Authorship number
     is available to the public or verifying party--as you can be censored in some
     extreme circumstances. Here, the verifying party may arrange to modify their
     number in response and you can rest assured that your authentication
     event has been acknowledged.)
 *   **Skipping through verification with outdated numbers**
     (here, the proving
-    party had published multiple numbers beforehand. Their main number had changed
+    party had published multiple Authorship numbers beforehand. Their main number had changed
     so many times, public files older than a year for example, have been discarded.
     Now, those who have not verified since the number publishing, wish to know that
     each and every modification to this date is what the proving party intended.
@@ -104,7 +104,7 @@ along with the hash of that new list
     to periodic verification as if they ran through the entire chain.)
 *   **Disposable sessions without breaking trust**
     (let's say some service had
-    published a single number beforehand, and serves one million users on their
+    published a single Authorship number beforehand, and serves one million users on their
     network years later. Each user requested in simultaneity and demanded
     authentication for each and every byte. Here, the service's number is not
     modified per user since that would require all users to catch up on verification
@@ -151,5 +151,5 @@ Tи не можеш доказать шо ти створив свій вміс�
 Ho ти можеш доказать шо він приходe від тебе, ни уособлення.
 І ти НІКОЛИ не прив'язаний до ні-якого типу шифрування;
 Дані аутентифицируются допомогою двійкової наявності і відсутності
-ключів до списків зашифрованих елементів
+ключів до длінниx списків зашифрованих елементів
 (отже публічно перевіряється і все ж тільки тoбoй авторизованe.)
