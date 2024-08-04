@@ -79,7 +79,7 @@ along with the hash of that new list
 *   **Group authorization**
     (numbers can be assembled using ciphertext from multiple users.)
 *   **Animal theft management**
-    (animal biometric data can be assigned to numbers; If you can't modify the
+    (animal biometric data can be assigned to numbers in a ledger; If you can't modify the
     number associated with your animal, it's not your animal. Authority registrars should be able to
     easily identify animals such as by imaging a cow's wrinkly nose.)
 *   **Voter fraud prevention**
