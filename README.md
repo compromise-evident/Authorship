@@ -32,16 +32,16 @@ How would you have forced that list to represent
 a NEW list that's not pregenerated to finiteness?
 Authorship does just that;
 
-Instead of releasing a key,
-make a new list of encrypted items and release only half the keys to that old list.
+When I ask for proof of life, instead of releasing one key,
+make a new list of encrypted items then selectively release half the keys to that original list, all at once.
 Now, as I look at your original list of encrypted items,
-I can cross out any that I can decrypt.
-And when I take a step back,
+I cross out any that I can decrypt.
+When I take a step back,
 a binary message appears; what's crossed out and left uncrossed
 represents ones and zeros not predetermined.
 This message can be anything at any time,
 even though it comes from something old and immutable.
-In Authorship, it consists of your optional personal message
+And so you have it represent personal thoughts for this event,
 along with the hash of that new list
 (so as to build an authorized-only relationship with that new list.)
 
