@@ -26,9 +26,11 @@ Let's say you published a list of encrypted items
 then became a target for exposing war crimes.
 And when I ask for proof of life, you publish
 one key until you're out of keys.
-I have to assume that new encrypted
+You'll need to publish new lists.
+But because you're a target,
+I have to assume new encrypted
 items under your name are impersonation.
-How would you have forced that list to represent
+How would you have forced that original list to represent
 a NEW list that's not pregenerated to finiteness?
 Authorship does just that;
 
