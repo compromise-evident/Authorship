@@ -21,7 +21,8 @@ Data is authenticated using the binary
 presence & absence of keys to lengthy lists of encrypted
 items (hence publicly verifiable yet authorized-only.)
 
-Still don't get it?
+### The wrong way
+
 Let's say you published a list of encrypted items
 then became a target for exposing war crimes.
 Each time I ask for proof of life, you publish
@@ -33,6 +34,8 @@ items under your name are impersonation.
 How would you have forced that original list to represent
 a NEW list that's not pregenerated to finiteness?
 Authorship does just that;
+
+### The right way
 
 When I ask for proof of life, instead of releasing one key,
 make a new list of encrypted items then selectively release half the keys to that original list, all at once.
