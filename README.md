@@ -24,8 +24,8 @@ items (hence publicly verifiable yet authorized-only.)
 Still don't get it?
 Let's say you published a list of encrypted items
 then became a target for exposing war crimes.
-And when I ask for proof of life, you publish
-one key until you're out of keys.
+Each time I ask for proof of life, you publish
+one key, until you're out of keys.
 You'll need to publish new lists.
 But because you're a target,
 I have to assume new encrypted
