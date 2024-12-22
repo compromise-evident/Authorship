@@ -127,7 +127,8 @@ along with the hash of that new list
 <br>
 <br>
 
-I discovered Authorship December 2019, which would not have been possible without
-direct inspiration from my personal heroes who sacrificed their freedom and
-demonstrated beautifully the need for publicly accessible AND comprehensible cryptographic
-evidence systems--Julian Assange and Edward Snowden--this is for you! :heart:
+I discovered Authorship December 2019,
+inspired by Julian Assange and Edward Snowden, my heroes.
+Their use of cryptographic evidence systems generally too complex
+and inaccessible led many to uncertainty, and me,
+to logical authentication anyone can understand in 15 seconds.
