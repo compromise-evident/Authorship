@@ -132,5 +132,5 @@ along with the hash of that new list
 Julian Assange and Edward Snowden used cryptographic evidence
 systems generally too complex and inaccessible, which led many to uncertainty
 in a time of great public distrust for government.
-This inspired me to search for, discover (Dec 2019), and build Authorship--
-logical authentication anyone can understand in 15 seconds.
+This inspired me to search for, discover (Dec 2019), and build Authorship--logical
+authentication anyone can understand in 15 seconds.
