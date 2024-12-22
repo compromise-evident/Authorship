@@ -10,7 +10,7 @@ Run it: ```apt install g++ geany```. Open the .cpp in Geany. Hit F9 once. F5 to 
 # How it works
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_documentation_0a878afe498b75626e44128422076c2c.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/refs/heads/main/Other/How_it_works.png">
 </p>
 
 You can't prove that you created your content, or that
@@ -18,7 +18,7 @@ it's not fake or false. But you can prove it's coming
 from you--not impersonation. And you're NEVER locked-in
 to any type of encryption;
 Data is authenticated using the binary
-presence & absence of keys to lengthy lists of encrypted
+presence & absence of keys to lists of encrypted
 items (hence publicly verifiable yet authorized-only.)
 
 ### The wrong way
@@ -131,28 +131,3 @@ I discovered Authorship December 2019, which would not have been possible withou
 direct inspiration from my personal heroes who sacrificed their freedom and
 demonstrated beautifully the need for publicly accessible AND comprehensible cryptographic
 evidence systems--Julian Assange and Edward Snowden--this is for you! :heart:
-
-<br>
-<br>
-
-# Українська
-
-Авторство - отримай номер який тільки ти міняєш, яке всякий провірє.
-Вставляй повідомлень 9kB.
-(Нескінченна автентифікація даних незалежнa від типу чи симетрії шифрування.)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Terminal_Ukrainian_254f5a6cb571c2d5f9bf88807b82c96e.png">
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Authorship/main/Other/Main_Ukrainian_b89cb562bcf89abc742ccc0ef8f0ccda.png">
-</p>
-
-Tи не можеш доказать шо ти створив свій вміст,
-або шо він не підробкa чи брехня.
-Ho ти можеш доказать шо він приходe від тебе, ни уособлення.
-І ти НІКОЛИ не прив'язаний до ні-якого типу шифрування;
-Дані аутентифицируются допомогою двійкової наявності і відсутності
-ключів до длінниx списків зашифрованих елементів
-(отже публічно перевіряється і все ж тільки тoбoй авторизованe.)
