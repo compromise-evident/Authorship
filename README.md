@@ -127,8 +127,10 @@ along with the hash of that new list
 <br>
 <br>
 
-I discovered Authorship December 2019,
-inspired by Julian Assange and Edward Snowden, my heroes.
-Their use of cryptographic evidence systems generally too complex
-and inaccessible led many to uncertainty, and me,
-to logical authentication anyone can understand in 15 seconds.
+# Why
+
+Julian Assange and Edward Snowden used cryptographic evidence
+systems generally too complex and inaccessible, which led many to uncertainty
+in a time of great public distrust for government.
+This inspired me to search for, discover (Dec 2019), and build Authorship--
+logical authentication anyone can understand in 15 seconds.
