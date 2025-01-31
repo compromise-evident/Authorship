@@ -20,6 +20,8 @@ to any type of encryption;
 Data is authenticated using the binary
 presence & absence of keys to lists of encrypted
 items (hence publicly verifiable yet authorized-only.)
+These encrypted items hide no substance of value,
+their only purpose is to pose a difficulty.
 
 ### The wrong way
 
