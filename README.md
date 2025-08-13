@@ -46,8 +46,7 @@ I cross out any that I can decrypt.
 When I take a step back,
 a binary message appears; what's crossed out and left uncrossed
 represents ones and zeros not predetermined.
-This message can be anything at any time,
-even though it comes from something old and immutable.
+<u>This message can be anything at any time, even though it comes from something old and immutable.<u>
 And so you make this message represent personal thoughts for this event,
 along with the hash of that new list
 (so as to build an authorized-only relationship with that new list.)
