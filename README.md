@@ -79,7 +79,7 @@ along with the hash of that new list
     This is how we'll know not to
     trust words under your name
     unless we can verify your
-    number modification.)
+    number modification. In fact, compromise-evident is my tag because Authorship is my centerpiece and my masterpiece.)
 *   **Canary update authentication**
 *   **Group authorization**
     (Authorship numbers can be assembled using ciphertext from multiple users.)
