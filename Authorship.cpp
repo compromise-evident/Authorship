@@ -1,9 +1,8 @@
-/// Authorship - get a number only you can modify--which anyone                 Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
-///              can verify. Include 9k-char messages. (Infinite data
-///              authentication independent of encryption type or symmetry.)
+/*Version 8.0.1 - Get a number only you can modify--which anyone can verify               Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
+(infinite data authentication independent of encryption type and symmetry.)
 
+Using rolling-code 3.1.1 */
 
-// Version 8.0.1   +   rolling-code 3.1.1
 #include <fstream>
 #include <iostream>
 using namespace std;
