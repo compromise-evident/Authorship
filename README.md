@@ -45,8 +45,8 @@ Now, as I look at your original list of encrypted items,
 I cross out any that I can decrypt.
 When I take a step back,
 a binary message appears; what's crossed out and left uncrossed
-represents ones and zeros not predetermined.
-<ins>This message can be anything at any time, even though it comes from something old and immutable.</ins>
+represents ones and zeros not predetermined;
+<ins>this one-time message can be anything you make it whenever you make it, even though it comes from something old and unchangeable.</ins>
 And so you make this message represent personal thoughts for this event,
 along with the hash of that new list
 (so as to build an authorized-only relationship with that new list.)
