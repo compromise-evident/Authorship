@@ -21,7 +21,7 @@ Data is authenticated using the binary
 presence & absence of keys to lists of encrypted
 items (hence publicly verifiable yet authorized-only.)
 These encrypted items hide no substance of value,
-their only purpose is to pose a difficulty.
+their purpose is to pose difficulty.
 
 ### The wrong way
 
