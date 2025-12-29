@@ -33,8 +33,10 @@ You'll need to publish new lists.
 But because you're a target,
 I have to assume new encrypted
 items under your name are impersonation.
-How would you have forced that original list to represent
-a NEW list that's not pregenerated to finiteness?
+How would you have forced that original list to symbolically point to
+your NEW list that's not pregenerated to finiteness?
+How would you have ensured that only you can make your lists point?
+And how would you have ensured that this pointing is publicly verifiable?
 Authorship does just that;
 
 ### The right way
