@@ -45,8 +45,8 @@ Again, you published a list of encrypted items
 then became a target for exposing war crimes.
 Now, when I ask for proof of life, instead of releasing one key,
 make a NEW list of encrypted items, then selectively release half the keys to that original list, all at once.
-Now, as I look at your original list of encrypted items,
-I cross out any that I can decrypt.
+And now, as I look at your original list of encrypted items,
+I cross out any that I can decrypt, using the keys you released.
 When I take a step back,
 a binary message appears; what's crossed out and left uncrossed
 represents ones and zeros not predetermined;
