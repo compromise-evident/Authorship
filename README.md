@@ -41,8 +41,10 @@ Authorship does just that;
 
 ### The right way
 
-When I ask for proof of life, instead of releasing one key,
-make a new list of encrypted items then selectively release half the keys to that original list, all at once.
+Again, you published a list of encrypted items
+then became a target for exposing war crimes.
+Now, when I ask for proof of life, instead of releasing one key,
+make a NEW list of encrypted items, then selectively release half the keys to that original list, all at once.
 Now, as I look at your original list of encrypted items,
 I cross out any that I can decrypt.
 When I take a step back,
